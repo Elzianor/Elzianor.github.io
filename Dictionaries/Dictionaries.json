@@ -1147,6 +1147,18 @@
         "Vosotros": "volv\u00E9is",
         "Ellos": "vuelven",
         "Translation": "\u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0442\u044C\u0441\u044F"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "llamar",
+        "Conjugation": 1,
+        "Yo": "llamo",
+        "Tu": "llamas",
+        "ElElla": "llama",
+        "Nosotros": "llamamos",
+        "Vosotros": "llam\u00E1is",
+        "Ellos": "llaman",
+        "Translation": "\u0437\u0432\u0430\u0442\u044C / \u043D\u0430\u0437\u044B\u0432\u0430\u0442\u044C"
       }
     ],
     "_name": "\u0413\u043B\u0430\u0433\u043E\u043B\u044B"
@@ -2340,6 +2352,12 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "c\u00FAal",
+        "Translation": "\u043A\u0430\u043A? / \u043A\u0430\u043A\u043E\u0439?"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "\u00E9l",
         "Translation": "\u043E\u043D"
       },
@@ -2426,6 +2444,12 @@
         "Article": 0,
         "Spanish": "pocos",
         "Translation": "\u043C\u0430\u043B\u043E (\u043C., \u043C\u043D. \u0447.)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "qu\u00E9",
+        "Translation": "\u0447\u0442\u043E?"
       },
       {
         "$type": "Other",
@@ -2684,6 +2708,12 @@
       },
       {
         "$type": "Other",
+        "Article": 1,
+        "Spanish": "apellido",
+        "Translation": "\u0444\u0430\u043C\u0438\u043B\u0438\u044F"
+      },
+      {
+        "$type": "Other",
         "Article": 2,
         "Spanish": "botella",
         "Translation": "\u0431\u0443\u0442\u044B\u043B\u043A\u0430"
@@ -2807,6 +2837,12 @@
         "Article": 0,
         "Spanish": "nada",
         "Translation": "\u043D\u0438\u0447\u0435\u0433\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "nombre",
+        "Translation": "\u0438\u043C\u044F"
       },
       {
         "$type": "Other",
