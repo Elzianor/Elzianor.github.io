@@ -224,20 +224,20 @@
       {
         "$type": "Other",
         "Article": 1,
+        "Spanish": "gramo",
+        "Translation": "\u0433\u0440\u0430\u043C\u043C"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
         "Spanish": "kilogramo",
         "Translation": "\u043A\u0438\u043B\u043E\u0433\u0440\u0430\u043C\u043C"
       },
       {
         "$type": "Other",
-        "Article": 1,
-        "Spanish": "gramo",
-        "Translation": null
-      },
-      {
-        "$type": "Other",
         "Article": 2,
         "Spanish": "tonelada",
-        "Translation": null
+        "Translation": "\u0442\u043E\u043D\u043D\u0430"
       }
     ],
     "_name": "\u0412\u0435\u0441\u0430"
