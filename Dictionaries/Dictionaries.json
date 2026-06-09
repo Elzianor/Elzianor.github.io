@@ -5,6 +5,30 @@
     "Entries": [
       {
         "$type": "Other",
+        "Article": 1,
+        "Spanish": "abrigo",
+        "Translation": "\u043F\u0430\u043B\u044C\u0442\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "bater\u00EDa",
+        "Translation": "\u0431\u0430\u0442\u0430\u0440\u0435\u044F (\u0430\u043A\u043A\u0443\u043C\u0443\u043B\u044F\u0442\u043E\u0440)"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "bolsa",
+        "Translation": "\u043F\u0430\u043A\u0435\u0442"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "bolso",
+        "Translation": "\u0441\u0443\u043C\u043A\u0430"
+      },
+      {
+        "$type": "Other",
         "Article": 2,
         "Spanish": "camisa",
         "Translation": "\u0441\u043E\u0440\u043E\u0447\u043A\u0430"
@@ -53,6 +77,18 @@
       },
       {
         "$type": "Other",
+        "Article": 1,
+        "Spanish": "reloj",
+        "Translation": "\u0447\u0430\u0441\u044B"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "su\u00E9ter",
+        "Translation": "\u0441\u0432\u0438\u0442\u0435\u0440"
+      },
+      {
+        "$type": "Other",
         "Article": 2,
         "Spanish": "tarjeta",
         "Translation": "\u043A\u0430\u0440\u0442\u043E\u0447\u043A\u0430"
@@ -60,8 +96,32 @@
       {
         "$type": "Other",
         "Article": 1,
+        "Spanish": "traje",
+        "Translation": "\u043A\u043E\u0441\u0442\u044E\u043C"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "traje de ba\u00F1o",
+        "Translation": "\u043A\u0443\u043F\u0430\u043B\u044C\u043D\u0438\u043A"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
         "Spanish": "vestido",
         "Translation": "\u043F\u043B\u0430\u0442\u044C\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "pasaporte",
+        "Translation": "\u043F\u0430\u0441\u0441\u043F\u043E\u0440\u0442"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "billete",
+        "Translation": "\u0431\u0438\u043B\u0435\u0442"
       }
     ],
     "_name": "\u0410\u043A\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044B"
@@ -73,14 +133,50 @@
       {
         "$type": "Other",
         "Article": 1,
+        "Spanish": "baloncesto",
+        "Translation": "\u0431\u0430\u0441\u043A\u0435\u0442\u0431\u043E\u043B"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "b\u00E9isbol",
+        "Translation": "\u0431\u0435\u0439\u0441\u0431\u043E\u043B"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
         "Spanish": "boxeo",
         "Translation": "\u0431\u043E\u043A\u0441"
       },
       {
         "$type": "Other",
         "Article": 1,
+        "Spanish": "f\u00FAtbol",
+        "Translation": "\u0444\u0443\u0442\u0431\u043E\u043B"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "golf",
+        "Translation": "\u0433\u043E\u043B\u044C\u0444"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
         "Spanish": "masaje",
         "Translation": "\u043C\u0430\u0441\u0441\u0430\u0436"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "m\u00FAsica",
+        "Translation": "\u043C\u0443\u0437\u044B\u043A\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "tenis",
+        "Translation": "\u0442\u0435\u043D\u0438\u0441"
       },
       {
         "$type": "Other",
@@ -93,9 +189,967 @@
         "Article": 1,
         "Spanish": "yoga",
         "Translation": "\u0439\u043E\u0433\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "discoteca",
+        "Translation": "\u0434\u0438\u0441\u043A\u043E\u0442\u0435\u043A\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "pel\u00EDcula",
+        "Translation": "\u0444\u0438\u043B\u044C\u043C"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "salsa",
+        "Translation": "\u0441\u0430\u043B\u044C\u0441\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "arte",
+        "Translation": "\u0438\u0441\u043A\u0443\u0441\u0441\u0442\u0432\u043E"
       }
     ],
     "_name": "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438"
+  },
+  {
+    "ApprovedName": "\u0412\u0435\u0441\u0430",
+    "IsSelected": false,
+    "Entries": [
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "kilogramo",
+        "Translation": "\u043A\u0438\u043B\u043E\u0433\u0440\u0430\u043C\u043C"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "gramo",
+        "Translation": null
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "tonelada",
+        "Translation": null
+      }
+    ],
+    "_name": "\u0412\u0435\u0441\u0430"
+  },
+  {
+    "ApprovedName": "\u0412\u0440\u0435\u043C\u044F",
+    "IsSelected": false,
+    "Entries": [
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "a\u00F1o",
+        "Translation": "\u0433\u043E\u0434"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "d\u00EDa",
+        "Translation": "\u0434\u0435\u043D\u044C / \u0441\u0443\u0442\u043A\u0438"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "hora",
+        "Translation": "\u0447\u0430\u0441"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "ma\u00F1ana",
+        "Translation": "\u0443\u0442\u0440\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "mes",
+        "Translation": "\u043C\u0435\u0441\u044F\u0446"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "minuto",
+        "Translation": "\u043C\u0438\u043D\u0443\u0442\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "noche",
+        "Translation": "\u043D\u043E\u0447\u044C"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "segundo",
+        "Translation": "\u0441\u0435\u043A\u0443\u043D\u0434\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "semana",
+        "Translation": "\u043D\u0435\u0434\u0435\u043B\u044F"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "tarde",
+        "Translation": "\u0432\u0435\u0447\u0435\u0440"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "tiempo",
+        "Translation": "\u0432\u0440\u0435\u043C\u044F"
+      }
+    ],
+    "_name": "\u0412\u0440\u0435\u043C\u044F"
+  },
+  {
+    "ApprovedName": "\u0412\u044B\u0440\u0430\u0436\u0435\u043D\u0438\u044F",
+    "IsSelected": false,
+    "Entries": [
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "a ti",
+        "Translation": "\u0438 \u0442\u0435\u0431\u0435 (\u0432 \u043E\u0442\u0432\u0435\u0442 \u043D\u0430 \u0441\u043F\u0430\u0441\u0438\u0431\u043E)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "al aire libre",
+        "Translation": "\u043D\u0430 \u0441\u0432\u0435\u0436\u0435\u043C \u0432\u043E\u0437\u0434\u0443\u0445\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "ay",
+        "Translation": "\u043E\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "buen tiempo",
+        "Translation": null
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "bueno",
+        "Translation": "\u043D\u0443 (\u0441\u043B\u043E\u0432\u043E-\u043F\u0430\u0440\u0430\u0437\u0438\u0442)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "claro",
+        "Translation": "\u043A\u043E\u043D\u0435\u0447\u043D\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "c\u00F3mo es",
+        "Translation": "\u043A\u0430\u043A\u043E\u0439?"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "como yo",
+        "Translation": "\u043A\u0430\u043A \u0438 \u044F"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "creo que",
+        "Translation": "\u044F \u0434\u0443\u043C\u0430\u044E \u0447\u0442\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "cu\u00E1nto cuesta",
+        "Translation": "\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u044D\u0442\u043E \u0441\u0442\u043E\u0438\u0442"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "de nada",
+        "Translation": "\u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430 / \u043D\u0435 \u0437\u0430 \u0447\u0442\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "empezar a",
+        "Translation": "\u043D\u0430\u0447\u0430\u0442\u044C \u0434\u0435\u043B\u0430\u0442\u044C \u0447\u0442\u043E-\u043B\u0438\u0431\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "en general",
+        "Translation": "\u0432 \u043E\u0431\u0449\u0435\u043C"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "es divertido",
+        "Translation": "\u0432\u0435\u0441\u0435\u043B\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "escucha...",
+        "Translation": "\u043F\u043E\u0441\u043B\u0443\u0448\u0430\u0439..."
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "genial",
+        "Translation": "\u043E\u0442\u043B\u0438\u0447\u043D\u043E / \u043A\u043B\u0430\u0441\u0441\u043D\u043E / \u0437\u0434\u043E\u0440\u043E\u0432\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "guau",
+        "Translation": "\u0432\u0430\u0443"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "hay",
+        "Translation": "\u0435\u0441\u0442\u044C / \u0438\u043C\u0435\u0435\u0442\u0441\u044F / \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "honestamente",
+        "Translation": "\u0447\u0435\u0441\u0442\u043D\u043E \u0433\u043E\u0432\u043E\u0440\u044F"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "listo",
+        "Translation": "\u0433\u043E\u0442\u043E\u0432\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "me gusta",
+        "Translation": "\u043C\u043D\u0435 \u043D\u0440\u0430\u0432\u0438\u0442\u0441\u044F (\u0435\u0434. \u0447.)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "me gustan",
+        "Translation": "\u043C\u043D\u0435 \u043D\u0440\u0430\u0432\u044F\u0442\u0441\u044F (\u043C\u043D. \u0447.)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "mira...",
+        "Translation": "\u0441\u043C\u043E\u0442\u0440\u0438..."
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "no",
+        "Translation": "\u043D\u0435\u0442"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "no crees",
+        "Translation": "\u043D\u0435 \u0442\u0430\u043A \u043B\u0438?"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "no hay de qu\u00E9",
+        "Translation": "\u043D\u0435 \u0437\u0430 \u0447\u0442\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "no pasa nada",
+        "Translation": "\u0431\u0435\u0437 \u043F\u0440\u043E\u0431\u043B\u0435\u043C"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "os presento",
+        "Translation": "\u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u044C\u0442\u0435\u0441\u044C"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "oye...",
+        "Translation": "\u0441\u043B\u0443\u0448\u0430\u0439..."
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "perfecto",
+        "Translation": "\u043E\u0442\u043B\u0438\u0447\u043D\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "por favor",
+        "Translation": "\u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430 (\u043F\u0440\u043E\u0441\u044C\u0431\u0430)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "pues",
+        "Translation": "\u043D\u0443 / \u0438\u0442\u0430\u043A (\u0441\u043B\u043E\u0432\u043E-\u043F\u0430\u0440\u0430\u0437\u0438\u0442)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "s\u00ED",
+        "Translation": "\u0434\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "tiempo libre",
+        "Translation": "\u0441\u0432\u043E\u0431\u043E\u0434\u043D\u043E\u0435 \u0432\u0440\u0435\u043C\u044F"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "todos los d\u00EDas",
+        "Translation": "\u043A\u0430\u0436\u0434\u044B\u0439 \u0434\u0435\u043D\u044C"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "tranquilo(a)",
+        "Translation": "\u0443\u0441\u043F\u043E\u043A\u043E\u0439\u0441\u044F (\u043C / \u0436) / \u0441\u043F\u043E\u043A\u043E\u0439\u043D\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "un poco de",
+        "Translation": "\u043D\u0435\u043C\u043D\u043E\u0433\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "vale",
+        "Translation": "\u0445\u043E\u0440\u043E\u0448\u043E / \u043B\u0430\u0434\u043D\u043E / \u0434\u043E\u0433\u043E\u0432\u043E\u0440\u0438\u043B\u0438\u0441\u044C"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "verdad",
+        "Translation": "\u043D\u0435 \u0442\u0430\u043A \u043B\u0438?"
+      }
+    ],
+    "_name": "\u0412\u044B\u0440\u0430\u0436\u0435\u043D\u0438\u044F"
+  },
+  {
+    "ApprovedName": "\u0413\u043B\u0430\u0433\u043E\u043B\u044B",
+    "IsSelected": false,
+    "Entries": [
+      {
+        "$type": "Verb",
+        "Spanish": "bailar",
+        "Conjugation": 1,
+        "Yo": "bailo",
+        "Tu": "bailas",
+        "ElElla": "baila",
+        "Nosotros": "bailamos",
+        "Vosotros": "bail\u00E1is",
+        "Ellos": "bailan",
+        "Translation": "\u0442\u0430\u043D\u0446\u0435\u0432\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "beber",
+        "Conjugation": 2,
+        "Yo": "bebo",
+        "Tu": "bebes",
+        "ElElla": "bebe",
+        "Nosotros": "bebemos",
+        "Vosotros": "beb\u00E9is",
+        "Ellos": "beben",
+        "Translation": "\u043F\u0438\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "caminar",
+        "Conjugation": 1,
+        "Yo": "camino",
+        "Tu": "caminas",
+        "ElElla": "camina",
+        "Nosotros": "caminamos",
+        "Vosotros": "camin\u00E1is",
+        "Ellos": "caminan",
+        "Translation": "\u0445\u043E\u0434\u0438\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "cantar",
+        "Conjugation": 1,
+        "Yo": "canto",
+        "Tu": "cantas",
+        "ElElla": "canta",
+        "Nosotros": "cantamos",
+        "Vosotros": "cant\u00E1is",
+        "Ellos": "cantan",
+        "Translation": "\u043F\u0435\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "cerrar",
+        "Conjugation": 5,
+        "Yo": "cierro",
+        "Tu": "cierras",
+        "ElElla": "cierra",
+        "Nosotros": "cerramos",
+        "Vosotros": "cerr\u00E1is",
+        "Ellos": "cierran",
+        "Translation": "\u0437\u0430\u043A\u0440\u044B\u0432\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "cocinar",
+        "Conjugation": 1,
+        "Yo": "cocino",
+        "Tu": "cocinas",
+        "ElElla": "cocina",
+        "Nosotros": "cocinamos",
+        "Vosotros": "cocin\u00E1is",
+        "Ellos": "cocinan",
+        "Translation": "\u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "comer",
+        "Conjugation": 2,
+        "Yo": "como",
+        "Tu": "comes",
+        "ElElla": "come",
+        "Nosotros": "comemos",
+        "Vosotros": "com\u00E9is",
+        "Ellos": "comen",
+        "Translation": "\u043A\u0443\u0448\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "conocer",
+        "Conjugation": 4,
+        "Yo": "conozco",
+        "Tu": "conoces",
+        "ElElla": "conoce",
+        "Nosotros": "conocemos",
+        "Vosotros": "conoc\u00E9is",
+        "Ellos": "conocen",
+        "Translation": "\u0431\u044B\u0442\u044C \u0437\u043D\u0430\u043A\u043E\u043C\u044B\u043C \u0441"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "costar",
+        "Conjugation": 5,
+        "Yo": "cuesto",
+        "Tu": "cuestas",
+        "ElElla": "cuesta",
+        "Nosotros": "costamos",
+        "Vosotros": "cost\u00E1is",
+        "Ellos": "cuestan",
+        "Translation": "\u0441\u0442\u043E\u0438\u0442\u044C / \u043E\u0431\u0445\u043E\u0434\u0438\u0442\u044C\u0441\u044F \u0432 \u0446\u0435\u043D\u0443 / \u0434\u0430\u0432\u0430\u0442\u044C\u0441\u044F \u0441 \u0442\u0440\u0443\u0434\u043E\u043C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "creer",
+        "Conjugation": 2,
+        "Yo": "creo",
+        "Tu": "crees",
+        "ElElla": "cree",
+        "Nosotros": "creemos",
+        "Vosotros": "cre\u00E9is",
+        "Ellos": "creen",
+        "Translation": "\u0441\u0447\u0438\u0442\u0430\u0442\u044C / \u043F\u043E\u043B\u0430\u0433\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "descansar",
+        "Conjugation": 1,
+        "Yo": "descanso",
+        "Tu": "descansas",
+        "ElElla": "descansa",
+        "Nosotros": "descansamos",
+        "Vosotros": "descans\u00E1is",
+        "Ellos": "descansan",
+        "Translation": "\u043E\u0442\u0434\u044B\u0445\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "dibujar",
+        "Conjugation": 1,
+        "Yo": "dibujo",
+        "Tu": "dibujas",
+        "ElElla": "dibuja",
+        "Nosotros": "dibujamos",
+        "Vosotros": "dibuj\u00E1is",
+        "Ellos": "dibujan",
+        "Translation": "\u0440\u0438\u0441\u043E\u0432\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "empezar",
+        "Conjugation": 5,
+        "Yo": "empiezo",
+        "Tu": "empiezas",
+        "ElElla": "empieza",
+        "Nosotros": "empezamos",
+        "Vosotros": "empez\u00E1is",
+        "Ellos": "empiezan",
+        "Translation": "\u043D\u0430\u0447\u0438\u043D\u0430\u0442\u044C(\u0441\u044F)"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "encontrar",
+        "Conjugation": 5,
+        "Yo": "encuentro",
+        "Tu": "encuentras",
+        "ElElla": "encuentra",
+        "Nosotros": "encontramos",
+        "Vosotros": "encontr\u00E1is",
+        "Ellos": "encuentran",
+        "Translation": "\u043D\u0430\u0445\u043E\u0434\u0438\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "entrenar",
+        "Conjugation": 1,
+        "Yo": "entreno",
+        "Tu": "entrenas",
+        "ElElla": "entrena",
+        "Nosotros": "entrenamos",
+        "Vosotros": "entren\u00E1is",
+        "Ellos": "entrenan",
+        "Translation": "\u0442\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u0430\u0442\u044C(\u0441\u044F)"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "escribir",
+        "Conjugation": 3,
+        "Yo": "escribo",
+        "Tu": "escribes",
+        "ElElla": "escribe",
+        "Nosotros": "escribimos",
+        "Vosotros": "escrib\u00EDs",
+        "Ellos": "escriben",
+        "Translation": "\u043F\u0438\u0441\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "escuchar",
+        "Conjugation": 1,
+        "Yo": "escucho",
+        "Tu": "escuchas",
+        "ElElla": "escucha",
+        "Nosotros": "escuchamos",
+        "Vosotros": "escuch\u00E1is",
+        "Ellos": "escuchan",
+        "Translation": "\u0441\u043B\u0443\u0448\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "esquiar",
+        "Conjugation": 1,
+        "Yo": "esqu\u00EDo",
+        "Tu": "esqu\u00EDas",
+        "ElElla": "esqu\u00EDa",
+        "Nosotros": "esquiamos",
+        "Vosotros": "esqui\u00E1is",
+        "Ellos": "esqu\u00EDan",
+        "Translation": "\u043A\u0430\u0442\u0430\u0442\u044C\u0441\u044F \u043D\u0430 \u043B\u044B\u0436\u0430\u0445"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "estar",
+        "Conjugation": 4,
+        "Yo": "estoy",
+        "Tu": "est\u00E1s",
+        "ElElla": "est\u00E1",
+        "Nosotros": "estamos",
+        "Vosotros": "est\u00E1is",
+        "Ellos": "est\u00E1n",
+        "Translation": "\u0431\u044B\u0442\u044C / \u043D\u0430\u0445\u043E\u0434\u0438\u0442\u044C\u0441\u044F"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "estudiar",
+        "Conjugation": 1,
+        "Yo": "estudio",
+        "Tu": "estudias",
+        "ElElla": "estudia",
+        "Nosotros": "estudiamos",
+        "Vosotros": "estudi\u00E1is",
+        "Ellos": "estudian",
+        "Translation": "\u0438\u0437\u0443\u0447\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "gustar",
+        "Conjugation": 1,
+        "Yo": "gusto",
+        "Tu": "gustas",
+        "ElElla": "gusta",
+        "Nosotros": "gustamos",
+        "Vosotros": "gust\u00E1is",
+        "Ellos": "gustan",
+        "Translation": "\u043D\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "haber",
+        "Conjugation": 6,
+        "Yo": "he",
+        "Tu": "has",
+        "ElElla": "ha",
+        "Nosotros": "hemos",
+        "Vosotros": "hab\u00E9is",
+        "Ellos": "han",
+        "Translation": "\u0438\u043C\u0435\u0442\u044C\u0441\u044F / \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "hablar",
+        "Conjugation": 1,
+        "Yo": "hablo",
+        "Tu": "hablas",
+        "ElElla": "habla",
+        "Nosotros": "hablamos",
+        "Vosotros": "habl\u00E1is",
+        "Ellos": "hablan",
+        "Translation": "\u0433\u043E\u0432\u043E\u0440\u0438\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "hacer",
+        "Conjugation": 4,
+        "Yo": "hago",
+        "Tu": "haces",
+        "ElElla": "hace",
+        "Nosotros": "hacemos",
+        "Vosotros": "hac\u00E9is",
+        "Ellos": "hacen",
+        "Translation": "\u0434\u0435\u043B\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "ir",
+        "Conjugation": 6,
+        "Yo": "voy",
+        "Tu": "vas",
+        "ElElla": "va",
+        "Nosotros": "vamos",
+        "Vosotros": "vais",
+        "Ellos": "van",
+        "Translation": "\u0438\u0434\u0442\u0438 / \u0435\u0445\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "jugar",
+        "Conjugation": 5,
+        "Yo": "juego",
+        "Tu": "juegas",
+        "ElElla": "juega",
+        "Nosotros": "jugamos",
+        "Vosotros": "jug\u00E1is",
+        "Ellos": "juegan",
+        "Translation": "\u0438\u0433\u0440\u0430\u0442\u044C (\u0432 \u0438\u0433\u0440\u0443)"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "leer",
+        "Conjugation": 2,
+        "Yo": "leo",
+        "Tu": "lees",
+        "ElElla": "lee",
+        "Nosotros": "leemos",
+        "Vosotros": "le\u00E9is",
+        "Ellos": "leen",
+        "Translation": "\u0447\u0438\u0442\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "llegar",
+        "Conjugation": 1,
+        "Yo": "llego",
+        "Tu": "llegas",
+        "ElElla": "llega",
+        "Nosotros": "llegamos",
+        "Vosotros": "lleg\u00E1is",
+        "Ellos": "llegan",
+        "Translation": "\u043F\u0440\u0438\u0431\u044B\u0432\u0430\u0442\u044C / \u0434\u043E\u0431\u0438\u0440\u0430\u0442\u044C\u0441\u044F"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "mirar",
+        "Conjugation": 1,
+        "Yo": "miro",
+        "Tu": "miras",
+        "ElElla": "mira",
+        "Nosotros": "miramos",
+        "Vosotros": "mir\u00E1is",
+        "Ellos": "miran",
+        "Translation": "\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "nadar",
+        "Conjugation": 1,
+        "Yo": "nado",
+        "Tu": "nadas",
+        "ElElla": "nada",
+        "Nosotros": "nadamos",
+        "Vosotros": "nad\u00E1is",
+        "Ellos": "nadan",
+        "Translation": "\u043F\u043B\u0430\u0432\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "necesitar",
+        "Conjugation": 1,
+        "Yo": "necesito",
+        "Tu": "necesitas",
+        "ElElla": "necesita",
+        "Nosotros": "necesitamos",
+        "Vosotros": "necesit\u00E1is",
+        "Ellos": "necesitan",
+        "Translation": "\u043D\u0443\u0436\u0434\u0430\u0442\u044C\u0441\u044F"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "o\u00EDr",
+        "Conjugation": 6,
+        "Yo": "oigo",
+        "Tu": "oyes",
+        "ElElla": "oye",
+        "Nosotros": "o\u00EDmos",
+        "Vosotros": "o\u00EDs",
+        "Ellos": "oyen",
+        "Translation": "\u0441\u043B\u044B\u0448\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "pensar",
+        "Conjugation": 5,
+        "Yo": "pienso",
+        "Tu": "piensas",
+        "ElElla": "piensa",
+        "Nosotros": "pensamos",
+        "Vosotros": "pens\u00E1is",
+        "Ellos": "piensan",
+        "Translation": "\u0434\u0443\u043C\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "pintar",
+        "Conjugation": 1,
+        "Yo": "pinto",
+        "Tu": "pintas",
+        "ElElla": "pinta",
+        "Nosotros": "pintamos",
+        "Vosotros": "pint\u00E1is",
+        "Ellos": "pintan",
+        "Translation": "\u0440\u0438\u0441\u043E\u0432\u0430\u0442\u044C \u043A\u0440\u0430\u0441\u043A\u0430\u043C\u0438 / \u043A\u0440\u0430\u0441\u0438\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "poder",
+        "Conjugation": 5,
+        "Yo": "puedo",
+        "Tu": "puedes",
+        "ElElla": "puede",
+        "Nosotros": "podemos",
+        "Vosotros": "pod\u00E9is",
+        "Ellos": "pueden",
+        "Translation": "\u043C\u043E\u0447\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "practicar",
+        "Conjugation": 1,
+        "Yo": "practico",
+        "Tu": "practicas",
+        "ElElla": "practica",
+        "Nosotros": "practicamos",
+        "Vosotros": "practic\u00E1is",
+        "Ellos": "practican",
+        "Translation": "\u0443\u043F\u0440\u0430\u0436\u043D\u044F\u0442\u044C\u0441\u044F"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "presentar",
+        "Conjugation": 1,
+        "Yo": "presento",
+        "Tu": "presentas",
+        "ElElla": "presenta",
+        "Nosotros": "presentamos",
+        "Vosotros": "present\u00E1is",
+        "Ellos": "presentan",
+        "Translation": "\u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u044F\u0442\u044C / \u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u044C / \u043F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "quedar",
+        "Conjugation": 1,
+        "Yo": "quedo",
+        "Tu": "quedas",
+        "ElElla": "queda",
+        "Nosotros": "quedamos",
+        "Vosotros": "qued\u00E1is",
+        "Ellos": "quedan",
+        "Translation": "\u043E\u0441\u0442\u0430\u0432\u0430\u0442\u044C\u0441\u044F"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "querer",
+        "Conjugation": 5,
+        "Yo": "quiero",
+        "Tu": "quieres",
+        "ElElla": "quiere",
+        "Nosotros": "queremos",
+        "Vosotros": "quer\u00E9is",
+        "Ellos": "quieren",
+        "Translation": "\u0445\u043E\u0442\u0435\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "saber",
+        "Conjugation": 4,
+        "Yo": "s\u00E9",
+        "Tu": "sabes",
+        "ElElla": "sabe",
+        "Nosotros": "sabemos",
+        "Vosotros": "sab\u00E9is",
+        "Ellos": "saben",
+        "Translation": "\u0437\u043D\u0430\u0442\u044C / \u0443\u043C\u0435\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "ser",
+        "Conjugation": 6,
+        "Yo": "soy",
+        "Tu": "eres",
+        "ElElla": "es",
+        "Nosotros": "somos",
+        "Vosotros": "sois",
+        "Ellos": "son",
+        "Translation": "\u0431\u044B\u0442\u044C (\u043F\u043E \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043A\u0435)"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "tener",
+        "Conjugation": 5,
+        "Yo": "tengo",
+        "Tu": "tienes",
+        "ElElla": "tiene",
+        "Nosotros": "tenemos",
+        "Vosotros": "ten\u00E9is",
+        "Ellos": "tienen",
+        "Translation": "\u0438\u043C\u0435\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "tocar",
+        "Conjugation": 1,
+        "Yo": "toco",
+        "Tu": "tocas",
+        "ElElla": "toca",
+        "Nosotros": "tocamos",
+        "Vosotros": "toc\u00E1is",
+        "Ellos": "tocan",
+        "Translation": "\u0438\u0433\u0440\u0430\u0442\u044C (\u043D\u0430 \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u0435)"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "trabajar",
+        "Conjugation": 1,
+        "Yo": "trabajo",
+        "Tu": "trabajas",
+        "ElElla": "trabaja",
+        "Nosotros": "trabajamos",
+        "Vosotros": "trabaj\u00E1is",
+        "Ellos": "trabajan",
+        "Translation": "\u0440\u0430\u0431\u043E\u0442\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "usar",
+        "Conjugation": 1,
+        "Yo": "uso",
+        "Tu": "usas",
+        "ElElla": "usa",
+        "Nosotros": "usamos",
+        "Vosotros": "us\u00E1is",
+        "Ellos": "usan",
+        "Translation": "\u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "ver",
+        "Conjugation": 4,
+        "Yo": "veo",
+        "Tu": "ves",
+        "ElElla": "ve",
+        "Nosotros": "vemos",
+        "Vosotros": "v\u00E9is",
+        "Ellos": "ven",
+        "Translation": "\u0432\u0438\u0434\u0435\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "viajar",
+        "Conjugation": 1,
+        "Yo": "viajo",
+        "Tu": "viajas",
+        "ElElla": "viaja",
+        "Nosotros": "viajamos",
+        "Vosotros": "viaj\u00E1is",
+        "Ellos": "viajan",
+        "Translation": "\u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "vivir",
+        "Conjugation": 3,
+        "Yo": "vivo",
+        "Tu": "vives",
+        "ElElla": "vive",
+        "Nosotros": "vivimos",
+        "Vosotros": "viv\u00EDs",
+        "Ellos": "viven",
+        "Translation": "\u0436\u0438\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "volver",
+        "Conjugation": 5,
+        "Yo": "vuelvo",
+        "Tu": "vuelves",
+        "ElElla": "vuelve",
+        "Nosotros": "volvemos",
+        "Vosotros": "volv\u00E9is",
+        "Ellos": "vuelven",
+        "Translation": "\u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0442\u044C\u0441\u044F"
+      }
+    ],
+    "_name": "\u0413\u043B\u0430\u0433\u043E\u043B\u044B"
   },
   {
     "ApprovedName": "\u0413\u043E\u0440\u043E\u0434",
@@ -103,9 +1157,33 @@
     "Entries": [
       {
         "$type": "Other",
+        "Article": 2,
+        "Spanish": "academia",
+        "Translation": "\u0430\u043A\u0430\u0434\u0435\u043C\u0438\u044F / \u0448\u043A\u043E\u043B\u0430 (\u0441\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u0430\u044F)"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "aeropuerto",
+        "Translation": "\u0430\u044D\u0440\u043E\u043F\u043E\u0440\u0442"
+      },
+      {
+        "$type": "Other",
         "Article": 1,
         "Spanish": "aparcamiento",
         "Translation": "\u043F\u0430\u0440\u043A\u043E\u0432\u043A\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "avi\u00F3n",
+        "Translation": "\u0441\u0430\u043C\u043E\u043B\u0451\u0442"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "banco",
+        "Translation": "\u0431\u0430\u043D\u043A"
       },
       {
         "$type": "Other",
@@ -122,6 +1200,12 @@
       {
         "$type": "Other",
         "Article": 2,
+        "Spanish": "biblioteca",
+        "Translation": "\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
         "Spanish": "bicicleta",
         "Translation": "\u0432\u0435\u043B\u043E\u0441\u0438\u043F\u0435\u0434"
       },
@@ -133,9 +1217,27 @@
       },
       {
         "$type": "Other",
+        "Article": 2,
+        "Spanish": "calle",
+        "Translation": "\u0443\u043B\u0438\u0446\u0430"
+      },
+      {
+        "$type": "Other",
         "Article": 1,
         "Spanish": "carro",
         "Translation": "\u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "centro",
+        "Translation": "\u0446\u0435\u043D\u0442\u0440"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "centro comercial",
+        "Translation": "\u0442\u043E\u0440\u0433\u043E\u0432\u044B\u0439 \u0446\u0435\u043D\u0442\u0440"
       },
       {
         "$type": "Other",
@@ -157,9 +1259,21 @@
       },
       {
         "$type": "Other",
+        "Article": 1,
+        "Spanish": "edificio",
+        "Translation": "\u0437\u0434\u0430\u043D\u0438\u0435"
+      },
+      {
+        "$type": "Other",
         "Article": 2,
         "Spanish": "escalera autom\u00E1tica",
         "Translation": "\u044D\u0441\u043A\u0430\u043B\u0430\u0442\u043E\u0440"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "escuela",
+        "Translation": "\u0448\u043A\u043E\u043B\u0430"
       },
       {
         "$type": "Other",
@@ -169,9 +1283,21 @@
       },
       {
         "$type": "Other",
+        "Article": 2,
+        "Spanish": "estaci\u00F3n de metro",
+        "Translation": "\u0441\u0442\u0430\u043D\u0446\u0438\u044F \u043C\u0435\u0442\u0440\u043E"
+      },
+      {
+        "$type": "Other",
         "Article": 1,
         "Spanish": "estacionamiento",
         "Translation": "\u043F\u0430\u0440\u043A\u043E\u0432\u043A\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "fruter\u00EDa",
+        "Translation": "\u043C\u0430\u0433\u0430\u0437\u0438\u043D \u0444\u0440\u0443\u043A\u0442\u043E\u0432"
       },
       {
         "$type": "Other",
@@ -193,6 +1319,24 @@
       },
       {
         "$type": "Other",
+        "Article": 1,
+        "Spanish": "hospital",
+        "Translation": "\u0431\u043E\u043B\u044C\u043D\u0438\u0446\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "hotel",
+        "Translation": "\u043E\u0442\u0435\u043B\u044C"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "librer\u00EDa",
+        "Translation": "\u043A\u043D\u0438\u0436\u043D\u044B\u0439 \u043C\u0430\u0433\u0430\u0437\u0438\u043D"
+      },
+      {
+        "$type": "Other",
         "Article": 2,
         "Spanish": "luce",
         "Translation": "\u0441\u0432\u0435\u0442"
@@ -206,6 +1350,12 @@
       {
         "$type": "Other",
         "Article": 1,
+        "Spanish": "mercado",
+        "Translation": "\u0440\u044B\u043D\u043E\u043A"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
         "Spanish": "metro",
         "Translation": "\u043C\u0435\u0442\u0440\u043E / \u043C\u0435\u0442\u0440"
       },
@@ -214,6 +1364,12 @@
         "Article": 1,
         "Spanish": "monumento",
         "Translation": "\u043F\u0430\u043C\u044F\u0442\u043D\u0438\u043A"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "motocicleta",
+        "Translation": "\u043C\u043E\u0442\u043E\u0446\u0438\u043A\u043B"
       },
       {
         "$type": "Other",
@@ -236,14 +1392,26 @@
       {
         "$type": "Other",
         "Article": 2,
+        "Spanish": "piscina",
+        "Translation": "\u0431\u0430\u0441\u0441\u0435\u0439\u043D"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
         "Spanish": "playa",
         "Translation": "\u043F\u043B\u044F\u0436"
       },
       {
         "$type": "Other",
         "Article": 1,
-        "Spanish": "pueblo",
-        "Translation": "\u0434\u0435\u0440\u0435\u0432\u043D\u044F"
+        "Spanish": "restaurante",
+        "Translation": "\u0440\u0435\u0441\u0442\u043E\u0440\u0430\u043D"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "supermercado",
+        "Translation": "\u0441\u0443\u043F\u0435\u0440\u043C\u0430\u0440\u043A\u0435\u0442"
       },
       {
         "$type": "Other",
@@ -262,6 +1430,12 @@
         "Article": 2,
         "Spanish": "tienda",
         "Translation": "\u043C\u0430\u0433\u0430\u0437\u0438\u043D"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "tren",
+        "Translation": "\u043F\u043E\u0435\u0437\u0434"
       }
     ],
     "_name": "\u0413\u043E\u0440\u043E\u0434"
@@ -299,18 +1473,6 @@
         "Article": 1,
         "Spanish": "bol\u00EDgrafo",
         "Translation": "\u0440\u0443\u0447\u043A\u0430"
-      },
-      {
-        "$type": "Other",
-        "Article": 2,
-        "Spanish": "bolsa",
-        "Translation": "\u043F\u0430\u043A\u0435\u0442"
-      },
-      {
-        "$type": "Other",
-        "Article": 1,
-        "Spanish": "bolso",
-        "Translation": "\u0441\u0443\u043C\u043A\u0430"
       },
       {
         "$type": "Other",
@@ -368,6 +1530,12 @@
       },
       {
         "$type": "Other",
+        "Article": 1,
+        "Spanish": "cuarto",
+        "Translation": "\u043A\u043E\u043C\u043D\u0430\u0442\u0430"
+      },
+      {
+        "$type": "Other",
         "Article": 2,
         "Spanish": "cuchara",
         "Translation": "\u043B\u043E\u0436\u043A\u0430"
@@ -416,9 +1584,21 @@
       },
       {
         "$type": "Other",
+        "Article": 1,
+        "Spanish": "garaje",
+        "Translation": "\u0433\u0430\u0440\u0430\u0436"
+      },
+      {
+        "$type": "Other",
         "Article": 2,
         "Spanish": "habitaci\u00F3n",
         "Translation": "\u043A\u043E\u043C\u043D\u0430\u0442\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "jard\u00EDn",
+        "Translation": "\u0441\u0430\u0434"
       },
       {
         "$type": "Other",
@@ -443,12 +1623,6 @@
         "Article": 2,
         "Spanish": "l\u00E1mpara de pie",
         "Translation": "\u0442\u043E\u0440\u0448\u0435\u0440"
-      },
-      {
-        "$type": "Other",
-        "Article": 1,
-        "Spanish": "l\u00E1piz",
-        "Translation": "\u043A\u0430\u0440\u0430\u043D\u0434\u0430\u0448"
       },
       {
         "$type": "Other",
@@ -488,6 +1662,12 @@
       },
       {
         "$type": "Other",
+        "Article": 1,
+        "Spanish": "piso",
+        "Translation": "\u043A\u0432\u0430\u0440\u0442\u0438\u0440\u0430 / \u044D\u0442\u0430\u0436 / \u043F\u043E\u043B"
+      },
+      {
+        "$type": "Other",
         "Article": 2,
         "Spanish": "pluma",
         "Translation": "\u043F\u0435\u0440\u043E"
@@ -503,12 +1683,6 @@
         "Article": 2,
         "Spanish": "puerta",
         "Translation": "\u0434\u0432\u0435\u0440\u044C"
-      },
-      {
-        "$type": "Other",
-        "Article": 1,
-        "Spanish": "reloj",
-        "Translation": "\u0447\u0430\u0441\u044B"
       },
       {
         "$type": "Other",
@@ -548,6 +1722,12 @@
       },
       {
         "$type": "Other",
+        "Article": 1,
+        "Spanish": "vaso",
+        "Translation": "\u0441\u0442\u0430\u043A\u0430\u043D"
+      },
+      {
+        "$type": "Other",
         "Article": 2,
         "Spanish": "ventana",
         "Translation": "\u043E\u043A\u043D\u043E"
@@ -562,6 +1742,12 @@
       {
         "$type": "Other",
         "Article": 1,
+        "Spanish": "agua",
+        "Translation": "\u0432\u043E\u0434\u0430 (\u0436. \u0440\u043E\u0434)"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
         "Spanish": "aguacate",
         "Translation": "\u0430\u0432\u043E\u043A\u0430\u0434\u043E"
       },
@@ -570,6 +1756,18 @@
         "Article": 1,
         "Spanish": "ajo",
         "Translation": "\u0447\u0435\u0441\u043D\u043E\u043A"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "arroz",
+        "Translation": "\u0440\u0438\u0441"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "az\u00FAcar",
+        "Translation": "\u0441\u0430\u0445\u0430\u0440"
       },
       {
         "$type": "Other",
@@ -603,6 +1801,12 @@
       },
       {
         "$type": "Other",
+        "Article": 1,
+        "Spanish": "durazno",
+        "Translation": "\u043F\u0435\u0440\u0441\u0438\u043A (\u041B\u0430\u0442. \u0410\u043C.)"
+      },
+      {
+        "$type": "Other",
         "Article": 2,
         "Spanish": "ensalada",
         "Translation": "\u0441\u0430\u043B\u0430\u0442"
@@ -628,6 +1832,12 @@
       {
         "$type": "Other",
         "Article": 1,
+        "Spanish": "jugo",
+        "Translation": "\u0441\u043E\u043A (\u041B\u0430\u0442. \u0410\u043C.)"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
         "Spanish": "kiwi",
         "Translation": "\u043A\u0438\u0432\u0438"
       },
@@ -645,6 +1855,12 @@
       },
       {
         "$type": "Other",
+        "Article": 1,
+        "Spanish": "mango",
+        "Translation": "\u043C\u0430\u043D\u0433\u043E"
+      },
+      {
+        "$type": "Other",
         "Article": 2,
         "Spanish": "manzana",
         "Translation": "\u044F\u0431\u043B\u043E\u043A\u043E"
@@ -654,6 +1870,12 @@
         "Article": 1,
         "Spanish": "mazap\u00E1n",
         "Translation": "\u043C\u0430\u0440\u0446\u0438\u043F\u0430\u043D"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "melocot\u00F3n",
+        "Translation": "\u043F\u0435\u0440\u0441\u0438\u043A (\u0418\u0441\u043F.)"
       },
       {
         "$type": "Other",
@@ -676,6 +1898,12 @@
       {
         "$type": "Other",
         "Article": 2,
+        "Spanish": "pasta",
+        "Translation": "\u043C\u0430\u043A\u0430\u0440\u043E\u043D\u044B"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
         "Spanish": "patata",
         "Translation": "\u043A\u0430\u0440\u0442\u043E\u0448\u043A\u0430"
       },
@@ -694,8 +1922,26 @@
       {
         "$type": "Other",
         "Article": 1,
+        "Spanish": "pescado",
+        "Translation": "\u0440\u044B\u0431\u0430 (\u0431\u043B\u044E\u0434\u043E)"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "pi\u00F1a",
+        "Translation": "\u0430\u043D\u0430\u043D\u0430\u0441"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
         "Spanish": "pl\u00E1tano",
         "Translation": "\u0431\u0430\u043D\u0430\u043D"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "pollo",
+        "Translation": "\u043A\u0443\u0440\u0438\u0446\u0430 / \u0446\u044B\u043F\u043B\u0451\u043D\u043E\u043A"
       },
       {
         "$type": "Other",
@@ -711,9 +1957,21 @@
       },
       {
         "$type": "Other",
+        "Article": 1,
+        "Spanish": "s\u00E1ndwich",
+        "Translation": "\u0441\u044D\u043D\u0434\u0432\u0438\u0447 / \u0431\u0443\u0442\u0435\u0440\u0431\u0440\u043E\u0434"
+      },
+      {
+        "$type": "Other",
         "Article": 2,
         "Spanish": "sopa",
         "Translation": "\u0441\u0443\u043F"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "taco",
+        "Translation": "\u0442\u0430\u043A\u043E"
       },
       {
         "$type": "Other",
@@ -750,6 +2008,18 @@
         "Article": 2,
         "Spanish": "zanahoria",
         "Translation": "\u043C\u043E\u0440\u043A\u043E\u0432\u044C"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "zumo",
+        "Translation": "\u0441\u043E\u043A (\u0418\u0441\u043F.)"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "leche",
+        "Translation": "\u043C\u043E\u043B\u043E\u043A\u043E"
       }
     ],
     "_name": "\u0415\u0434\u0430"
@@ -758,6 +2028,18 @@
     "ApprovedName": "\u0416\u0438\u0432\u043E\u0442\u043D\u044B\u0435",
     "IsSelected": false,
     "Entries": [
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "\u00E1guila",
+        "Translation": "\u043E\u0440\u0451\u043B"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "animal",
+        "Translation": "\u0436\u0438\u0432\u043E\u0442\u043D\u043E\u0435"
+      },
       {
         "$type": "Other",
         "Article": 2,
@@ -815,6 +2097,12 @@
       {
         "$type": "Other",
         "Article": 1,
+        "Spanish": "pez",
+        "Translation": "\u0440\u044B\u0431\u0430 (\u0436\u0438\u0432\u0430\u044F)"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
         "Spanish": "ping\u00FCino",
         "Translation": "\u043F\u0438\u043D\u0433\u0432\u0438\u043D"
       },
@@ -840,6 +2128,37 @@
     "_name": "\u0416\u0438\u0432\u043E\u0442\u043D\u044B\u0435"
   },
   {
+    "ApprovedName": "\u0418\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u044B",
+    "IsSelected": false,
+    "Entries": [
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "bater\u00EDa",
+        "Translation": "\u0431\u0430\u0440\u0430\u0431\u0430\u043D\u043D\u0430\u044F \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "guitarra",
+        "Translation": "\u0433\u0438\u0442\u0430\u0440\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "piano",
+        "Translation": "\u043F\u0438\u0430\u043D\u0438\u043D\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "viol\u00EDn",
+        "Translation": "\u0441\u043A\u0440\u0438\u043F\u043A\u0430"
+      }
+    ],
+    "_name": "\u0418\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u044B"
+  },
+  {
     "ApprovedName": "\u041A\u0430\u043B\u0435\u043D\u0434\u0430\u0440\u044C",
     "IsSelected": false,
     "Entries": [
@@ -854,12 +2173,6 @@
         "Article": 1,
         "Spanish": "agosto",
         "Translation": "\u0430\u0432\u0433\u0443\u0441\u0442"
-      },
-      {
-        "$type": "Other",
-        "Article": 1,
-        "Spanish": "a\u00F1o",
-        "Translation": "\u0433\u043E\u0434"
       },
       {
         "$type": "Other",
@@ -997,6 +2310,36 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "alg\u00FAn(a)",
+        "Translation": "\u043A\u0430\u043A\u043E\u0439(\u0430\u044F)-\u0442\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "aquel",
+        "Translation": "\u0442\u043E\u0442 (\u0434\u0430\u043B\u0435\u043A\u043E)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "aquella",
+        "Translation": "\u0442\u0430 (\u0434\u0430\u043B\u0435\u043A\u043E)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "aquello",
+        "Translation": "\u0432\u043E\u043D \u0442\u043E (\u0434\u0430\u043B\u0435\u043A\u043E)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "ciertos",
+        "Translation": "\u043D\u0435\u043A\u043E\u0442\u043E\u0440\u044B\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "\u00E9l",
         "Translation": "\u043E\u043D"
       },
@@ -1015,8 +2358,74 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "esa",
+        "Translation": "\u0442\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "ese",
+        "Translation": "\u0442\u043E\u0442"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "eso",
+        "Translation": "\u0432\u043E\u043D \u0442\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "esta",
+        "Translation": "\u044D\u0442\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "este",
+        "Translation": "\u044D\u0442\u043E\u0442"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "esto",
+        "Translation": "\u044D\u0442\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "nosotros",
         "Translation": "\u043C\u044B"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "os",
+        "Translation": "\u0432\u0430\u0441"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "poca",
+        "Translation": "\u043C\u0430\u043B\u043E (\u0436., \u0435\u0434. \u0447.)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "pocas",
+        "Translation": "\u043C\u0430\u043B\u043E (\u0436., \u043C\u043D. \u0447.)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "poco",
+        "Translation": "\u043C\u0430\u043B\u043E (\u043C., \u0435\u0434. \u0447.)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "pocos",
+        "Translation": "\u043C\u0430\u043B\u043E (\u043C., \u043C\u043D. \u0447.)"
       },
       {
         "$type": "Other",
@@ -1045,8 +2454,32 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "unas",
+        "Translation": "\u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E (\u0436)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "unos",
+        "Translation": "\u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E (\u043C)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "usted",
+        "Translation": "\u0432\u044B (\u0435\u0434. \u0447., \u0432\u0435\u0436\u043B\u0438\u0432\u043E)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "ustedes",
-        "Translation": "\u0432\u044B (\u0432\u0435\u0436\u043B\u0438\u0432\u043E)"
+        "Translation": "\u0432\u044B (\u043C\u043D. \u0447., \u0432\u0435\u0436\u043B\u0438\u0432\u043E)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "varios",
+        "Translation": "\u0440\u0430\u0437\u043B\u0438\u0447\u043D\u044B\u0435"
       },
       {
         "$type": "Other",
@@ -1064,14 +2497,184 @@
     "_name": "\u041C\u0435\u0441\u0442\u043E\u0438\u043C\u0435\u043D\u0438\u044F"
   },
   {
+    "ApprovedName": "\u041D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F",
+    "IsSelected": false,
+    "Entries": [
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "ah\u00ED",
+        "Translation": "\u0442\u0430\u043C (\u043D\u0435\u0434\u0430\u043B\u0435\u043A\u043E)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "all\u00E1",
+        "Translation": "\u0442\u0430\u043C (\u0434\u0430\u043B\u0435\u043A\u043E)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "all\u00ED",
+        "Translation": "\u0442\u0430\u043C (\u0434\u0430\u043B\u044C\u0448\u0435)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "aqu\u00ED",
+        "Translation": "\u0442\u0443\u0442 / \u0437\u0434\u0435\u0441\u044C"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "por aqu\u00ED",
+        "Translation": "\u0433\u0434\u0435-\u0442\u043E \u0437\u0434\u0435\u0441\u044C / \u043F\u043E\u0431\u043B\u0438\u0437\u043E\u0441\u0442\u0438"
+      }
+    ],
+    "_name": "\u041D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F"
+  },
+  {
+    "ApprovedName": "\u041D\u0430\u0440\u0435\u0447\u0438\u044F",
+    "IsSelected": false,
+    "Entries": [
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "a menudo",
+        "Translation": "\u0447\u0430\u0441\u0442\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "a veces",
+        "Translation": "\u0438\u043D\u043E\u0433\u0434\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "buen",
+        "Translation": "\u0445\u043E\u0440\u043E\u0448\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "de d\u00F3nde",
+        "Translation": "\u043E\u0442\u043A\u0443\u0434\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "donde",
+        "Translation": "\u0433\u0434\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "d\u00F3nde",
+        "Translation": "\u0433\u0434\u0435?"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "frecuentemente",
+        "Translation": "\u0447\u0430\u0441\u0442\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "mal",
+        "Translation": "\u043F\u043B\u043E\u0445\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "ma\u00F1ana",
+        "Translation": "\u0437\u0430\u0432\u0442\u0440\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "m\u00E1s",
+        "Translation": "\u0431\u043E\u043B\u044C\u0448\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "mejor",
+        "Translation": "\u043B\u0443\u0447\u0448\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "menos",
+        "Translation": "\u043C\u0435\u043D\u044C\u0448\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "normalmente",
+        "Translation": "\u043E\u0431\u044B\u0447\u043D\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "nunca",
+        "Translation": "\u043D\u0438\u043A\u043E\u0433\u0434\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "raramente",
+        "Translation": "\u0440\u0435\u0434\u043A\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "siempre",
+        "Translation": "\u0432\u0441\u0435\u0433\u0434\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "tambi\u00E9n",
+        "Translation": "\u0442\u043E\u0436\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "todav\u00EDa",
+        "Translation": "\u0435\u0449\u0451"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "todav\u00EDa no",
+        "Translation": "\u0435\u0449\u0451 \u043D\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "ya",
+        "Translation": "\u0443\u0436\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "ya no",
+        "Translation": "\u0443\u0436\u0435 \u043D\u0435"
+      }
+    ],
+    "_name": "\u041D\u0430\u0440\u0435\u0447\u0438\u044F"
+  },
+  {
     "ApprovedName": "\u041D\u0435\u0441\u043E\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0435",
     "IsSelected": false,
     "Entries": [
       {
         "$type": "Other",
         "Article": 0,
-        "Spanish": "adi\u00F3s",
-        "Translation": "\u043F\u043E\u043A\u0430 (\u043E\u0444\u0438\u0446\u0438\u0430\u043B\u044C\u043D\u043E)"
+        "Spanish": "amigo(a)",
+        "Translation": "\u0434\u0440\u0443\u0433(\u043F\u043E\u0434\u0440\u0443\u0433\u0430)"
       },
       {
         "$type": "Other",
@@ -1081,21 +2684,15 @@
       },
       {
         "$type": "Other",
-        "Article": 0,
-        "Spanish": "as\u00ED as\u00ED",
-        "Translation": "\u0442\u0430\u043A \u0441\u0435\u0431\u0435"
+        "Article": 2,
+        "Spanish": "botella",
+        "Translation": "\u0431\u0443\u0442\u044B\u043B\u043A\u0430"
       },
       {
         "$type": "Other",
-        "Article": 0,
-        "Spanish": "bienvenido(a)",
-        "Translation": "\u0434\u043E\u0431\u0440\u043E \u043F\u043E\u0436\u0430\u043B\u043E\u0432\u0430\u0442\u044C (\u043C/\u0436)"
-      },
-      {
-        "$type": "Other",
-        "Article": 0,
-        "Spanish": "chao",
-        "Translation": "\u043F\u043E\u043A\u0430 (\u043D\u0435\u043E\u0444\u0438\u0446\u0438\u0430\u043B\u044C\u043D\u043E)"
+        "Article": 1,
+        "Spanish": "calentamiento",
+        "Translation": "\u0440\u0430\u0437\u043E\u0433\u0440\u0435\u0432 / \u0440\u0430\u0437\u043C\u0438\u043D\u043A\u0430"
       },
       {
         "$type": "Other",
@@ -1117,6 +2714,18 @@
       },
       {
         "$type": "Other",
+        "Article": 2,
+        "Spanish": "compa\u00F1era",
+        "Translation": "\u043F\u043E\u0434\u0440\u0443\u0433\u0430 / \u043A\u043E\u043B\u043B\u0435\u0433\u0430 (\u0436)"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "compa\u00F1ero",
+        "Translation": "\u0442\u043E\u0432\u0430\u0440\u0438\u0449 / \u043A\u043E\u043B\u043B\u0435\u0433\u0430 (\u043C)"
+      },
+      {
+        "$type": "Other",
         "Article": 0,
         "Spanish": "cu\u00E1ntos",
         "Translation": "\u0441\u043A\u043E\u043B\u044C\u043A\u043E"
@@ -1135,15 +2744,21 @@
       },
       {
         "$type": "Other",
-        "Article": 0,
-        "Spanish": "encantado/a",
-        "Translation": "\u043F\u0440\u0438\u044F\u0442\u043D\u043E \u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u044C\u0441\u044F"
+        "Article": 1,
+        "Spanish": "encuentro",
+        "Translation": "\u0432\u0441\u0442\u0440\u0435\u0447\u0430"
       },
       {
         "$type": "Other",
-        "Article": 0,
-        "Spanish": "genial",
-        "Translation": "\u043E\u0442\u043B\u0438\u0447\u043D\u043E / \u043A\u043B\u0430\u0441\u0441\u043D\u043E / \u0437\u0434\u043E\u0440\u043E\u0432\u043E"
+        "Article": 1,
+        "Spanish": "equipo",
+        "Translation": "\u043A\u043E\u043C\u0430\u043D\u0434\u0430 / \u044D\u043A\u0438\u043F\u0438\u0440\u043E\u0432\u043A\u0430 / \u043E\u0431\u043E\u0440\u0443\u0434\u043E\u0432\u0430\u043D\u0438\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "fotograf\u00EDa",
+        "Translation": "\u0444\u043E\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u044F"
       },
       {
         "$type": "Other",
@@ -1153,63 +2768,45 @@
       },
       {
         "$type": "Other",
+        "Article": 0,
+        "Spanish": "gracias",
+        "Translation": "\u0441\u043F\u0430\u0441\u0438\u0431\u043E"
+      },
+      {
+        "$type": "Other",
         "Article": 2,
         "Spanish": "guerra",
         "Translation": "\u0432\u043E\u0439\u043D\u0430"
       },
       {
         "$type": "Other",
-        "Article": 2,
-        "Spanish": "guitarra",
-        "Translation": "\u0433\u0438\u0442\u0430\u0440\u0430"
-      },
-      {
-        "$type": "Other",
-        "Article": 0,
-        "Spanish": "hola",
-        "Translation": "\u043F\u0440\u0438\u0432\u0435\u0442"
-      },
-      {
-        "$type": "Other",
-        "Article": 0,
-        "Spanish": "igualmente",
-        "Translation": "\u0432\u0437\u0430\u0438\u043C\u043D\u043E"
-      },
-      {
-        "$type": "Other",
-        "Article": 0,
-        "Spanish": "mal",
-        "Translation": "\u043F\u043B\u043E\u0445\u043E"
+        "Article": 1,
+        "Spanish": "hombre",
+        "Translation": "\u043C\u0443\u0436\u0447\u0438\u043D\u0430"
       },
       {
         "$type": "Other",
         "Article": 2,
-        "Spanish": "ma\u00F1ana",
-        "Translation": "\u0443\u0442\u0440\u043E"
+        "Spanish": "informaci\u00F3n",
+        "Translation": "\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F"
       },
       {
         "$type": "Other",
-        "Article": 0,
-        "Spanish": "m\u00E1s o menos",
-        "Translation": "\u0431\u043E\u043B\u0435\u0435 \u0438\u043B\u0438 \u043C\u0435\u043D\u0435\u0435"
+        "Article": 1,
+        "Spanish": "maletero",
+        "Translation": "\u0431\u0430\u0433\u0430\u0436\u043D\u0438\u043A"
       },
       {
         "$type": "Other",
-        "Article": 0,
-        "Spanish": "mucho gusto",
-        "Translation": "\u043E\u0447\u0435\u043D\u044C \u043F\u0440\u0438\u044F\u0442\u043D\u043E (\u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u044C\u0441\u044F)"
+        "Article": 2,
+        "Spanish": "mujer",
+        "Translation": "\u0436\u0435\u043D\u0449\u0438\u043D\u0430"
       },
       {
         "$type": "Other",
         "Article": 0,
         "Spanish": "nada",
         "Translation": "\u043D\u0438\u0447\u0435\u0433\u043E"
-      },
-      {
-        "$type": "Other",
-        "Article": 0,
-        "Spanish": "normal",
-        "Translation": "\u043D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u043E"
       },
       {
         "$type": "Other",
@@ -1225,9 +2822,15 @@
       },
       {
         "$type": "Other",
-        "Article": 0,
-        "Spanish": "pero",
-        "Translation": "\u043D\u043E"
+        "Article": 2,
+        "Spanish": "pereza",
+        "Translation": "\u043B\u0435\u043D\u044C"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "persona",
+        "Translation": "\u0447\u0435\u043B\u043E\u0432\u0435\u043A"
       },
       {
         "$type": "Other",
@@ -1244,32 +2847,32 @@
       {
         "$type": "Other",
         "Article": 0,
-        "Spanish": "pues",
-        "Translation": "\u043D\u0443 / \u0438\u0442\u0430\u043A (\u0441\u043B\u043E\u0432\u043E-\u043F\u0430\u0440\u0430\u0437\u0438\u0442)"
+        "Spanish": "tan",
+        "Translation": "\u0442\u0430\u043A / \u043D\u0430\u0441\u0442\u043E\u043B\u044C\u043A\u043E"
       },
       {
         "$type": "Other",
         "Article": 0,
-        "Spanish": "regular",
-        "Translation": "\u043D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u043E"
+        "Spanish": "todo",
+        "Translation": "\u0432\u0435\u0441\u044C / \u0432\u0441\u0451"
       },
       {
         "$type": "Other",
-        "Article": 1,
-        "Spanish": "tiempo",
-        "Translation": "\u0432\u0440\u0435\u043C\u044F"
+        "Article": 0,
+        "Spanish": "todos",
+        "Translation": "\u0432\u0441\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "verdad",
+        "Translation": "\u043F\u0440\u0430\u0432\u0434\u0430 / \u0438\u0441\u0442\u0438\u043D\u0430"
       },
       {
         "$type": "Other",
         "Article": 2,
         "Spanish": "verg\u00FCenza",
-        "Translation": "\u0446\u044B\u0433\u0430\u043D"
-      },
-      {
-        "$type": "Other",
-        "Article": 0,
-        "Spanish": "ya",
-        "Translation": "\u0443\u0436\u0435"
+        "Translation": "\u0441\u0442\u044B\u0434"
       }
     ],
     "_name": "\u041D\u0435\u0441\u043E\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0435"
@@ -1278,6 +2881,12 @@
     "ApprovedName": "\u041F\u043E\u0433\u043E\u0434\u0430",
     "IsSelected": false,
     "Entries": [
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "aire",
+        "Translation": "\u0432\u043E\u0437\u0434\u0443\u0445"
+      },
       {
         "$type": "Other",
         "Article": 1,
@@ -1408,9 +3017,251 @@
     "_name": "\u041F\u043E\u0433\u043E\u0434\u0430"
   },
   {
+    "ApprovedName": "\u041F\u0440\u0435\u0434\u043B\u043E\u0433\u0438",
+    "IsSelected": false,
+    "Entries": [
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "a",
+        "Translation": "\u043A / \u0432 / \u043D\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "con",
+        "Translation": "\u0441"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "contra",
+        "Translation": "\u043F\u0440\u043E\u0442\u0438\u0432"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "de",
+        "Translation": "\u0438\u0437 / \u043E\u0442"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "desde",
+        "Translation": "\u0441 / \u043D\u0430\u0447\u0438\u043D\u0430\u044F \u0441"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "en",
+        "Translation": "\u0432 / \u043D\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "entre",
+        "Translation": "\u043C\u0435\u0436\u0434\u0443"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "hasta",
+        "Translation": "\u0434\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "para",
+        "Translation": "\u0434\u043B\u044F / \u0447\u0442\u043E\u0431\u044B"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "por",
+        "Translation": "\u0438\u0437-\u0437\u0430 / \u043F\u043E / \u0432 \u0442\u0435\u0447\u0435\u043D\u0438\u0435 / \u0440\u0430\u0434\u0438"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "seg\u00FAn",
+        "Translation": "\u0441\u043E\u0433\u043B\u0430\u0441\u043D\u043E (\u043A\u043E\u043C\u0443 / \u0447\u0435\u043C\u0443 \u043B\u0438\u0431\u043E)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "sin",
+        "Translation": "\u0431\u0435\u0437"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "sobre",
+        "Translation": "\u043E / \u043D\u0430\u0434"
+      }
+    ],
+    "_name": "\u041F\u0440\u0435\u0434\u043B\u043E\u0433\u0438"
+  },
+  {
+    "ApprovedName": "\u041F\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u044F/\u043F\u0440\u043E\u0449\u0430\u043D\u0438\u044F",
+    "IsSelected": false,
+    "Entries": [
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "adi\u00F3s",
+        "Translation": "\u0434\u043E \u0441\u0432\u0438\u0434\u0430\u043D\u0438\u044F"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "as\u00ED as\u00ED",
+        "Translation": "\u0442\u0430\u043A \u0441\u0435\u0431\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "bienvenido(a)",
+        "Translation": "\u0434\u043E\u0431\u0440\u043E \u043F\u043E\u0436\u0430\u043B\u043E\u0432\u0430\u0442\u044C (\u043C/\u0436)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "buenas noches",
+        "Translation": "\u0434\u043E\u0431\u0440\u043E\u0439 \u043D\u043E\u0447\u0438"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "buenas tardes",
+        "Translation": "\u0434\u043E\u0431\u0440\u044B\u0439 \u0434\u0435\u043D\u044C/\u0432\u0435\u0447\u0435\u0440"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "buenos d\u00EDas",
+        "Translation": "\u0434\u043E\u0431\u0440\u043E\u0435 \u0443\u0442\u0440\u043E/\u0434\u0435\u043D\u044C"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "chao",
+        "Translation": "\u043F\u043E\u043A\u0430 (\u043F\u0440\u043E\u0449\u0430\u043D\u0438\u0435)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "c\u00F3mo est\u00E1s",
+        "Translation": "\u043A\u0430\u043A \u0434\u0435\u043B\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "encantado/a",
+        "Translation": "\u043F\u0440\u0438\u044F\u0442\u043D\u043E \u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u044C\u0441\u044F"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "hasta la pr\u00F3xima",
+        "Translation": "\u0434\u043E \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u0433\u043E \u0440\u0430\u0437\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "hasta luego",
+        "Translation": "\u0443\u0432\u0438\u0434\u0438\u043C\u0441\u044F \u043F\u043E\u0437\u0436\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "hasta ma\u00F1ana",
+        "Translation": "\u0434\u043E \u0437\u0430\u0432\u0442\u0440\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "hasta pronto",
+        "Translation": "\u0434\u043E \u0441\u043A\u043E\u0440\u043E\u0433\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "hola",
+        "Translation": "\u043F\u0440\u0438\u0432\u0435\u0442"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "igualmente",
+        "Translation": "\u0432\u0437\u0430\u0438\u043C\u043D\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "mal",
+        "Translation": "\u043F\u043B\u043E\u0445\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "m\u00E1s o menos",
+        "Translation": "\u0431\u043E\u043B\u0435\u0435 \u0438\u043B\u0438 \u043C\u0435\u043D\u0435\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "mucho gusto",
+        "Translation": "\u043E\u0447\u0435\u043D\u044C \u043F\u0440\u0438\u044F\u0442\u043D\u043E (\u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u044C\u0441\u044F)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "normal",
+        "Translation": "\u043D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "nos vemos",
+        "Translation": "\u0443\u0432\u0438\u0434\u0438\u043C\u0441\u044F"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "qu\u00E9 tal",
+        "Translation": "\u043A\u0430\u043A \u0434\u0435\u043B\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "qu\u00E9 tal est\u00E1s",
+        "Translation": "\u043A\u0430\u043A \u0434\u0435\u043B\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "regular",
+        "Translation": "\u043D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u043E"
+      }
+    ],
+    "_name": "\u041F\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u044F/\u043F\u0440\u043E\u0449\u0430\u043D\u0438\u044F"
+  },
+  {
     "ApprovedName": "\u041F\u0440\u0438\u043B\u0430\u0433\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0435",
     "IsSelected": false,
     "Entries": [
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "alem\u00E1n",
+        "Translation": "\u043D\u0435\u043C\u0435\u0446\u043A\u0438\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "atl\u00E9tico(a)",
+        "Translation": "\u0430\u0442\u043B\u0435\u0442\u0438\u0447\u043D\u044B\u0439(\u0430\u044F)"
+      },
       {
         "$type": "Other",
         "Article": 0,
@@ -1426,8 +3277,20 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "bonito(a)",
+        "Translation": "\u043A\u0440\u0430\u0441\u0438\u0432\u044B\u0439(\u0430\u044F)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "bueno",
         "Translation": "\u0445\u043E\u0440\u043E\u0448\u0438\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "cansado(a)",
+        "Translation": "\u0443\u0441\u0442\u0430\u043B\u044B\u0439(\u0430\u044F)"
       },
       {
         "$type": "Other",
@@ -1438,14 +3301,38 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "cerca",
+        "Translation": "\u0431\u043B\u0438\u0437\u043A\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "cubano",
         "Translation": "\u043A\u0443\u0431\u0438\u043D\u0441\u043A\u0438\u0439"
       },
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "delgado",
+        "Translation": "\u0442\u043E\u043D\u043A\u0438\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "divertido(a)",
         "Translation": "\u0432\u0435\u0441\u0451\u043B\u044B\u0439(\u0430\u044F)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "espa\u00F1ol",
+        "Translation": "\u0438\u0441\u043F\u0430\u043D\u0441\u043A\u0438\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "franc\u00E9s",
+        "Translation": "\u0444\u0440\u0430\u043D\u0446\u0443\u0437\u0441\u043A\u0438\u0439"
       },
       {
         "$type": "Other",
@@ -1468,6 +3355,12 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "grueso",
+        "Translation": "\u0442\u043E\u043B\u0441\u0442\u044B\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "helado",
         "Translation": "\u043B\u0435\u0434\u044F\u043D\u043E\u0439 / \u0437\u0430\u043C\u0451\u0440\u0437\u0448\u0438\u0439"
       },
@@ -1480,8 +3373,38 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "ingl\u00E9s",
+        "Translation": "\u0430\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u0438\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "inteligente",
         "Translation": "\u0443\u043C\u043D\u044B\u0439(\u0430\u044F)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "italiano",
+        "Translation": "\u0438\u0442\u0430\u043B\u044C\u044F\u043D\u0441\u043A\u0438\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "lejos",
+        "Translation": "\u0434\u0430\u043B\u0435\u043A\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "malo",
+        "Translation": "\u043F\u043B\u043E\u0445\u043E\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "mejor",
+        "Translation": "\u043B\u0443\u0447\u0448\u0438\u0439(\u0430\u044F)"
       },
       {
         "$type": "Other",
@@ -1510,8 +3433,20 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "perezoso",
+        "Translation": "\u043B\u0435\u043D\u0438\u0432\u044B\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "pl\u00E1stico",
         "Translation": "\u043F\u043B\u0430\u0441\u0442\u0438\u043A\u043E\u0432\u044B\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "portugu\u00E9s",
+        "Translation": "\u043F\u043E\u0440\u0442\u0443\u0433\u0430\u043B\u044C\u0441\u043A\u0438\u0439"
       },
       {
         "$type": "Other",
@@ -1528,8 +3463,32 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "solo",
+        "Translation": "\u043E\u0434\u0438\u043D / \u043E\u0434\u0438\u043D\u043E\u043A\u0438\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "soltero(a)",
+        "Translation": "\u0445\u043E\u043B\u043E\u0441\u0442 (\u043D\u0435 \u0437\u0430\u043C\u0443\u0436\u0435\u043C)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "tan",
         "Translation": "\u043D\u0430\u0441\u0442\u043E\u043B\u044C\u043A\u043E / \u0442\u0430\u043A / \u0442\u0430\u043A\u043E\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "t\u00EDmido(a)",
+        "Translation": "\u0437\u0430\u0441\u0442\u0435\u043D\u0447\u0438\u0432\u044B\u0439(\u0430\u044F)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "tranquilo(a)",
+        "Translation": "\u0441\u043F\u043E\u043A\u043E\u0439\u043D\u044B\u0439(\u0430\u044F)"
       },
       {
         "$type": "Other",
@@ -1539,6 +3498,43 @@
       }
     ],
     "_name": "\u041F\u0440\u0438\u043B\u0430\u0433\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0435"
+  },
+  {
+    "ApprovedName": "\u041F\u0440\u0438\u0442\u044F\u0436\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0435",
+    "IsSelected": false,
+    "Entries": [
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "mi",
+        "Translation": "\u043C\u043E\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "nuestro",
+        "Translation": "\u043D\u0430\u0448"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "su",
+        "Translation": "\u0435\u0433\u043E / \u0435\u0451 / \u0438\u0445 / \u0412\u0430\u0448"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "tu",
+        "Translation": "\u0442\u0432\u043E\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "vuestro",
+        "Translation": "\u0432\u0430\u0448"
+      }
+    ],
+    "_name": "\u041F\u0440\u0438\u0442\u044F\u0436\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0435"
   },
   {
     "ApprovedName": "\u041F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u0438",
@@ -1567,6 +3563,18 @@
         "Article": 2,
         "Spanish": "profesi\u00F3n",
         "Translation": "\u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u044F"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "entrenador",
+        "Translation": "\u0442\u0440\u0435\u043D\u0435\u0440 (\u043C)"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "entrenadora",
+        "Translation": "\u0442\u0440\u0435\u043D\u0435\u0440 (\u0436)"
       }
     ],
     "_name": "\u041F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u0438"
@@ -1592,6 +3600,12 @@
         "Article": 2,
         "Spanish": "planta",
         "Translation": "\u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "tronco",
+        "Translation": "\u0441\u0442\u0432\u043E\u043B \u0434\u0435\u0440\u0435\u0432\u0430"
       }
     ],
     "_name": "\u0420\u0430\u0441\u0442\u0435\u043D\u0438\u044F"
@@ -1728,9 +3742,15 @@
       },
       {
         "$type": "Other",
+        "Article": 2,
+        "Spanish": "pareja",
+        "Translation": "\u043F\u0430\u0440\u0430 / \u043F\u0430\u0440\u0442\u043D\u0451\u0440(\u0448\u0430)"
+      },
+      {
+        "$type": "Other",
         "Article": 0,
         "Spanish": "peque\u00F1o(a)",
-        "Translation": "\u043C\u0430\u043B\u0435\u043D\u044C\u043A\u0438\u0439(\u0430\u044F)"
+        "Translation": "\u043C\u043B\u0430\u0434\u0448\u0438\u0439(\u0430\u044F)"
       },
       {
         "$type": "Other",
@@ -1779,9 +3799,185 @@
         "Article": 1,
         "Spanish": "t\u00EDo",
         "Translation": "\u0434\u044F\u0434\u044F"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "pap\u00E1",
+        "Translation": "\u043F\u0430\u043F\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "mam\u00E1",
+        "Translation": "\u043C\u0430\u043C\u0430"
       }
     ],
     "_name": "\u0420\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0438\u043A\u0438"
+  },
+  {
+    "ApprovedName": "\u0421\u043E\u044E\u0437\u044B",
+    "IsSelected": false,
+    "Entries": [
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "aunque",
+        "Translation": "\u0445\u043E\u0442\u044F"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "como",
+        "Translation": "\u043A\u0430\u043A"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "c\u00F3mo",
+        "Translation": "\u043A\u0430\u043A?"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "cuando",
+        "Translation": "\u043A\u043E\u0433\u0434\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "entonces",
+        "Translation": "\u0442\u043E\u0433\u0434\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "mientras",
+        "Translation": "\u043F\u043E\u043A\u0430 / \u0432 \u0442\u043E \u0432\u0440\u0435\u043C\u044F \u043A\u0430\u043A"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "ni",
+        "Translation": "\u043D\u0438"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "o",
+        "Translation": "\u0438\u043B\u0438"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "pero",
+        "Translation": "\u043D\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "por eso",
+        "Translation": "\u043F\u043E\u044D\u0442\u043E\u043C\u0443"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "porque",
+        "Translation": "\u043F\u043E\u0442\u043E\u043C\u0443 \u0447\u0442\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "que",
+        "Translation": "\u0447\u0442\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "si",
+        "Translation": "\u0435\u0441\u043B\u0438"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "sino",
+        "Translation": "\u0430 / \u0430 \u043D\u0430\u043E\u0431\u043E\u0440\u043E\u0442"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "tambi\u00E9n",
+        "Translation": "\u0442\u0430\u043A\u0436\u0435 / \u0442\u043E\u0436\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "y",
+        "Translation": "\u0438"
+      }
+    ],
+    "_name": "\u0421\u043E\u044E\u0437\u044B"
+  },
+  {
+    "ApprovedName": "\u0421\u0442\u0440\u0430\u043D\u044B",
+    "IsSelected": false,
+    "Entries": [
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "Alemania",
+        "Translation": "\u0413\u0435\u0440\u043C\u0430\u043D\u0438\u044F"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "Espa\u00F1a",
+        "Translation": "\u0418\u0441\u043F\u0430\u043D\u0438\u044F"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "Francia",
+        "Translation": "\u0424\u0440\u0430\u043D\u0446\u0438\u044F"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "Italia",
+        "Translation": "\u0418\u0442\u0430\u043B\u0438\u044F"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "pa\u00EDs",
+        "Translation": "\u0441\u0442\u0440\u0430\u043D\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "pueblo",
+        "Translation": "\u0434\u0435\u0440\u0435\u0432\u043D\u044F"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "regi\u00F3n",
+        "Translation": "\u0440\u0435\u0433\u0438\u043E\u043D"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "Ucrania",
+        "Conjugation": 0,
+        "Yo": "",
+        "Tu": "",
+        "ElElla": "",
+        "Nosotros": "",
+        "Vosotros": "",
+        "Ellos": "",
+        "Translation": "\u0423\u043A\u0440\u0430\u0438\u043D\u0430"
+      }
+    ],
+    "_name": "\u0421\u0442\u0440\u0430\u043D\u044B"
   },
   {
     "ApprovedName": "\u0426\u0432\u0435\u0442\u0430",
@@ -1904,6 +4100,12 @@
       },
       {
         "$type": "Other",
+        "Article": 1,
+        "Spanish": "cabello",
+        "Translation": "\u0432\u043E\u043B\u043E\u0441\u044B (\u043D\u0430 \u0433\u043E\u043B\u043E\u0432\u0435)"
+      },
+      {
+        "$type": "Other",
         "Article": 2,
         "Spanish": "cabeza",
         "Translation": "\u0433\u043E\u043B\u043E\u0432\u0430"
@@ -1977,6 +4179,12 @@
       {
         "$type": "Other",
         "Article": 2,
+        "Spanish": "extremidad",
+        "Translation": "\u043A\u043E\u043D\u0435\u0447\u043D\u043E\u0441\u0442\u044C"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
         "Spanish": "frente",
         "Translation": "\u043B\u043E\u0431"
       },
@@ -2031,6 +4239,12 @@
       {
         "$type": "Other",
         "Article": 1,
+        "Spanish": "pelo",
+        "Translation": "\u0432\u043E\u043B\u043E\u0441\u044B (\u043D\u0430 \u0442\u0435\u043B\u0435 \u0438 \u0433\u043E\u043B\u043E\u0432\u0435)"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
         "Spanish": "pie",
         "Translation": "\u0441\u0442\u0443\u043F\u043D\u044F / \u043D\u043E\u0433\u0430"
       },
@@ -2051,6 +4265,12 @@
         "Article": 1,
         "Spanish": "tal\u00F3n",
         "Translation": "\u043F\u044F\u0442\u043A\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "tronco",
+        "Translation": "\u0442\u0443\u043B\u043E\u0432\u0438\u0449\u0435"
       },
       {
         "$type": "Other",
@@ -2079,6 +4299,12 @@
       },
       {
         "$type": "Other",
+        "Article": 2,
+        "Spanish": "aula",
+        "Translation": "\u043A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u043A\u043E\u043C\u043D\u0430\u0442\u0430 / \u0430\u0443\u0434\u0438\u0442\u043E\u0440\u0438\u044F"
+      },
+      {
+        "$type": "Other",
         "Article": 1,
         "Spanish": "calentamiento",
         "Translation": "\u0440\u0430\u0437\u043C\u0438\u043D\u043A\u0430 / \u0440\u0430\u0437\u043E\u0433\u0440\u0435\u0432"
@@ -2093,7 +4319,7 @@
         "$type": "Other",
         "Article": 2,
         "Spanish": "clase",
-        "Translation": "\u043A\u043B\u0430\u0441\u0441"
+        "Translation": "\u0443\u0440\u043E\u043A / \u0437\u0430\u043D\u044F\u0442\u0438\u0435 / \u0443\u0447\u0435\u0431\u043D\u0430\u044F \u0433\u0440\u0443\u043F\u043F\u0430"
       },
       {
         "$type": "Other",
@@ -2116,6 +4342,24 @@
       {
         "$type": "Other",
         "Article": 1,
+        "Spanish": "despacho",
+        "Translation": "\u043A\u0430\u0431\u0438\u043D\u0435\u0442"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "director",
+        "Translation": "\u0434\u0438\u0440\u0435\u043A\u0442\u043E\u0440 (\u043C)"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "directora",
+        "Translation": "\u0434\u0438\u0440\u0435\u043A\u0442\u043E\u0440 (\u0436)"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
         "Spanish": "examen",
         "Translation": "\u044D\u043A\u0437\u0430\u043C\u0435\u043D"
       },
@@ -2124,6 +4368,12 @@
         "Article": 2,
         "Spanish": "gram\u00E1tica",
         "Translation": "\u0433\u0440\u0430\u043C\u043C\u0430\u0442\u0438\u043A\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "l\u00E1piz",
+        "Translation": "\u043A\u0430\u0440\u0430\u043D\u0434\u0430\u0448"
       },
       {
         "$type": "Other",
@@ -2136,6 +4386,18 @@
         "Article": 1,
         "Spanish": "n\u00FAmero",
         "Translation": "\u0447\u0438\u0441\u043B\u043E / \u043D\u043E\u043C\u0435\u0440"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "papel",
+        "Translation": "\u0431\u0443\u043C\u0430\u0433\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "pizarra",
+        "Translation": "\u0434\u043E\u0441\u043A\u0430"
       },
       {
         "$type": "Other",
@@ -2154,6 +4416,18 @@
         "Article": 2,
         "Spanish": "respuesta",
         "Translation": "\u043E\u0442\u0432\u0435\u0442"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "secretaria",
+        "Translation": "\u0441\u0435\u043A\u0440\u0435\u0442\u0430\u0440\u044C (\u0436)"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "secretario",
+        "Translation": "\u0441\u0435\u043A\u0440\u0435\u0442\u0430\u0440\u044C (\u043C)"
       }
     ],
     "_name": "\u0428\u043A\u043E\u043B\u0430"
