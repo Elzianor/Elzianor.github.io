@@ -424,6 +424,12 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "de oreja a oreja",
+        "Translation": "\u043E\u0442 \u0443\u0445\u0430 \u0434\u043E \u0443\u0445\u0430 (\u0443\u043B\u044B\u0431\u043A\u0430)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "empezar a",
         "Translation": "\u043D\u0430\u0447\u0430\u0442\u044C \u0434\u0435\u043B\u0430\u0442\u044C \u0447\u0442\u043E-\u043B\u0438\u0431\u043E"
       },
@@ -432,6 +438,12 @@
         "Article": 0,
         "Spanish": "en general",
         "Translation": "\u0432 \u043E\u0431\u0449\u0435\u043C"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "en realidad",
+        "Translation": "\u043D\u0430 \u0441\u0430\u043C\u043E\u043C \u0434\u0435\u043B\u0435 / \u0432 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u0438"
       },
       {
         "$type": "Other",
@@ -462,6 +474,12 @@
         "Article": 0,
         "Spanish": "hay",
         "Translation": "\u0435\u0441\u0442\u044C / \u0438\u043C\u0435\u0435\u0442\u0441\u044F / \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "haz clic",
+        "Translation": "\u043A\u043B\u0438\u043A\u043D\u0438 / \u0449\u0451\u043B\u043A\u043D\u0438 \u043C\u044B\u0448\u043A\u043E\u0439 / \u043D\u0430\u0436\u043C\u0438"
       },
       {
         "$type": "Other",
@@ -556,8 +574,20 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "se te ha puesto",
+        "Translation": "\u0443 \u0442\u0435\u0431\u044F \u043F\u043E\u044F\u0432\u0438\u043B\u0441\u044F(\u0430\u0441\u044C)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "s\u00ED",
         "Translation": "\u0434\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "solamente",
+        "Translation": "\u0442\u043E\u043B\u044C\u043A\u043E / \u043B\u0438\u0448\u044C"
       },
       {
         "$type": "Other",
@@ -779,6 +809,42 @@
     "Entries": [
       {
         "$type": "Verb",
+        "Spanish": "abrir",
+        "Conjugation": 3,
+        "Yo": "abro",
+        "Tu": "abres",
+        "ElElla": "abre",
+        "Nosotros": "abrimos",
+        "Vosotros": "abr\u00EDs",
+        "Ellos": "abren",
+        "Translation": "\u043E\u0442\u043A\u0440\u044B\u0432\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "aparecer",
+        "Conjugation": 4,
+        "Yo": "aparezco",
+        "Tu": "apareces",
+        "ElElla": "aparece",
+        "Nosotros": "aparecemos",
+        "Vosotros": "aparec\u00E9is",
+        "Ellos": "aparecen",
+        "Translation": "\u043F\u043E\u044F\u0432\u043B\u044F\u0442\u044C\u0441\u044F"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "aprobar",
+        "Conjugation": 5,
+        "Yo": "apruebo",
+        "Tu": "apruebas",
+        "ElElla": "aprueba",
+        "Nosotros": "aprobamos",
+        "Vosotros": "aprob\u00E1is",
+        "Ellos": "aprueban",
+        "Translation": "\u043E\u0434\u043E\u0431\u0440\u044F\u0442\u044C / \u0441\u0434\u0430\u0432\u0430\u0442\u044C (\u044D\u043A\u0437\u0430\u043C\u0435\u043D)"
+      },
+      {
+        "$type": "Verb",
         "Spanish": "bailar",
         "Conjugation": 1,
         "Yo": "bailo",
@@ -887,6 +953,18 @@
       },
       {
         "$type": "Verb",
+        "Spanish": "crecer",
+        "Conjugation": 4,
+        "Yo": "crezco",
+        "Tu": "creces",
+        "ElElla": "crece",
+        "Nosotros": "crecemos",
+        "Vosotros": "crec\u00E9is",
+        "Ellos": "crecen",
+        "Translation": "\u0440\u0430\u0441\u0442\u0438"
+      },
+      {
+        "$type": "Verb",
         "Spanish": "creer",
         "Conjugation": 2,
         "Yo": "creo",
@@ -896,6 +974,42 @@
         "Vosotros": "cre\u00E9is",
         "Ellos": "creen",
         "Translation": "\u0441\u0447\u0438\u0442\u0430\u0442\u044C / \u043F\u043E\u043B\u0430\u0433\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "cruzar",
+        "Conjugation": 1,
+        "Yo": "cruzo",
+        "Tu": "cruzas",
+        "ElElla": "cruza",
+        "Nosotros": "cruzamos",
+        "Vosotros": "cruz\u00E1is",
+        "Ellos": "cruzan",
+        "Translation": "\u0441\u043A\u0440\u0435\u0449\u0438\u0432\u0430\u0442\u044C / \u043F\u0435\u0440\u0435\u0441\u0435\u043A\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "dar",
+        "Conjugation": 4,
+        "Yo": "doy",
+        "Tu": "das",
+        "ElElla": "da",
+        "Nosotros": "damos",
+        "Vosotros": "dais",
+        "Ellos": "dan",
+        "Translation": "\u0434\u0430\u0432\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "decir",
+        "Conjugation": 5,
+        "Yo": "digo",
+        "Tu": "dices",
+        "ElElla": "dice",
+        "Nosotros": "decimos",
+        "Vosotros": "dec\u00EDs",
+        "Ellos": "dicen",
+        "Translation": "\u0433\u043E\u0432\u043E\u0440\u0438\u0442\u044C"
       },
       {
         "$type": "Verb",
@@ -911,6 +1025,18 @@
       },
       {
         "$type": "Verb",
+        "Spanish": "descubrir",
+        "Conjugation": 3,
+        "Yo": "descubro",
+        "Tu": "descubres",
+        "ElElla": "descubre",
+        "Nosotros": "descubrimos",
+        "Vosotros": "descubr\u00EDs",
+        "Ellos": "descubren",
+        "Translation": "\u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0438\u0432\u0430\u0442\u044C / \u043E\u0442\u043A\u0440\u044B\u0432\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
         "Spanish": "dibujar",
         "Conjugation": 1,
         "Yo": "dibujo",
@@ -920,6 +1046,30 @@
         "Vosotros": "dibuj\u00E1is",
         "Ellos": "dibujan",
         "Translation": "\u0440\u0438\u0441\u043E\u0432\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "doler",
+        "Conjugation": 5,
+        "Yo": "duelo",
+        "Tu": "dueles",
+        "ElElla": "duele",
+        "Nosotros": "dolemos",
+        "Vosotros": "dol\u00E9is",
+        "Ellos": "duelen",
+        "Translation": "\u0431\u043E\u043B\u0435\u0442\u044C / \u043F\u0440\u0438\u0447\u0438\u043D\u044F\u0442\u044C \u0431\u043E\u043B\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "dormir",
+        "Conjugation": 5,
+        "Yo": "duermo",
+        "Tu": "duermes",
+        "ElElla": "duerme",
+        "Nosotros": "dormimos",
+        "Vosotros": "dorm\u00EDs",
+        "Ellos": "duermen",
+        "Translation": "\u0441\u043F\u0430\u0442\u044C"
       },
       {
         "$type": "Verb",
@@ -980,6 +1130,18 @@
         "Vosotros": "escuch\u00E1is",
         "Ellos": "escuchan",
         "Translation": "\u0441\u043B\u0443\u0448\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "esperar",
+        "Conjugation": 1,
+        "Yo": "espero",
+        "Tu": "esperas",
+        "ElElla": "espera",
+        "Nosotros": "esperamos",
+        "Vosotros": "esper\u00E1is",
+        "Ellos": "esperan",
+        "Translation": "\u0436\u0434\u0430\u0442\u044C / \u043E\u0436\u0438\u0434\u0430\u0442\u044C / \u043D\u0430\u0434\u0435\u044F\u0442\u044C\u0441\u044F"
       },
       {
         "$type": "Verb",
@@ -1091,6 +1253,18 @@
       },
       {
         "$type": "Verb",
+        "Spanish": "lavar",
+        "Conjugation": 1,
+        "Yo": "lavo",
+        "Tu": "lavas",
+        "ElElla": "lava",
+        "Nosotros": "lavamos",
+        "Vosotros": "lav\u00E1is",
+        "Ellos": "lavan",
+        "Translation": "\u043C\u044B\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
         "Spanish": "leer",
         "Conjugation": 2,
         "Yo": "leo",
@@ -1100,6 +1274,18 @@
         "Vosotros": "le\u00E9is",
         "Ellos": "leen",
         "Translation": "\u0447\u0438\u0442\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "levantar",
+        "Conjugation": 1,
+        "Yo": "levanto",
+        "Tu": "levantas",
+        "ElElla": "levanta",
+        "Nosotros": "levantamos",
+        "Vosotros": "levant\u00E1is",
+        "Ellos": "levantan",
+        "Translation": "\u043F\u043E\u0434\u043D\u0438\u043C\u0430\u0442\u044C"
       },
       {
         "$type": "Verb",
@@ -1175,6 +1361,18 @@
       },
       {
         "$type": "Verb",
+        "Spanish": "patinar",
+        "Conjugation": 1,
+        "Yo": "patino",
+        "Tu": "patinas",
+        "ElElla": "patina",
+        "Nosotros": "patinamos",
+        "Vosotros": "patin\u00E1is",
+        "Ellos": "patinan",
+        "Translation": "\u043A\u0430\u0442\u0430\u0442\u044C\u0441\u044F \u043D\u0430 \u043A\u043E\u043D\u044C\u043A\u0430\u0445 / \u0440\u043E\u043B\u0438\u043A\u0430\u0445"
+      },
+      {
+        "$type": "Verb",
         "Spanish": "pensar",
         "Conjugation": 5,
         "Yo": "pienso",
@@ -1184,6 +1382,18 @@
         "Vosotros": "pens\u00E1is",
         "Ellos": "piensan",
         "Translation": "\u0434\u0443\u043C\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "pescar",
+        "Conjugation": 1,
+        "Yo": "pesco",
+        "Tu": "pescas",
+        "ElElla": "pesca",
+        "Nosotros": "pescamos",
+        "Vosotros": "pesc\u00E1is",
+        "Ellos": "pescan",
+        "Translation": "\u0440\u044B\u0431\u0430\u0447\u0438\u0442\u044C"
       },
       {
         "$type": "Verb",
@@ -1208,6 +1418,18 @@
         "Vosotros": "pod\u00E9is",
         "Ellos": "pueden",
         "Translation": "\u043C\u043E\u0447\u044C"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "poner",
+        "Conjugation": 4,
+        "Yo": "pongo",
+        "Tu": "pones",
+        "ElElla": "pone",
+        "Nosotros": "ponemos",
+        "Vosotros": "pon\u00E9is",
+        "Ellos": "ponen",
+        "Translation": "\u043A\u043B\u0430\u0441\u0442\u044C / \u0441\u0442\u0430\u0432\u0438\u0442\u044C / \u043F\u043E\u043C\u0435\u0449\u0430\u0442\u044C"
       },
       {
         "$type": "Verb",
@@ -1280,6 +1502,18 @@
         "Vosotros": "sois",
         "Ellos": "son",
         "Translation": "\u0431\u044B\u0442\u044C (\u043F\u043E \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043A\u0435)"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "sonre\u00EDr",
+        "Conjugation": 5,
+        "Yo": "sonr\u00EDo",
+        "Tu": "sonr\u00EDes",
+        "ElElla": "sonr\u00EDe",
+        "Nosotros": "sonre\u00EDmos",
+        "Vosotros": "sonre\u00EDs",
+        "Ellos": "sonr\u00EDen",
+        "Translation": "\u0443\u043B\u044B\u0431\u0430\u0442\u044C\u0441\u044F"
       },
       {
         "$type": "Verb",
@@ -1376,30 +1610,6 @@
         "Vosotros": "volv\u00E9is",
         "Ellos": "vuelven",
         "Translation": "\u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0442\u044C\u0441\u044F"
-      },
-      {
-        "$type": "Verb",
-        "Spanish": "levantar",
-        "Conjugation": 1,
-        "Yo": "levanto",
-        "Tu": "levantas",
-        "ElElla": "levanta",
-        "Nosotros": "levantamos",
-        "Vosotros": "levant\u00E1is",
-        "Ellos": "levantan",
-        "Translation": "\u043F\u043E\u0434\u043D\u0438\u043C\u0430\u0442\u044C"
-      },
-      {
-        "$type": "Verb",
-        "Spanish": "nadar",
-        "Conjugation": 1,
-        "Yo": "nado",
-        "Tu": "nadas",
-        "ElElla": "nada",
-        "Nosotros": "nadamos",
-        "Vosotros": "nad\u00E1is",
-        "Ellos": "nadan",
-        "Translation": "\u043F\u043B\u0430\u0432\u0430\u0442\u044C"
       }
     ],
     "_name": "\u0413\u043B\u0430\u0433\u043E\u043B\u044B"
@@ -1653,6 +1863,12 @@
         "Article": 1,
         "Spanish": "parque",
         "Translation": "\u043F\u0430\u0440\u043A"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "peluquer\u00EDa",
+        "Translation": "\u043F\u0430\u0440\u0438\u043A\u043C\u0430\u0445\u0435\u0440\u0441\u043A\u0430\u044F"
       },
       {
         "$type": "Other",
@@ -2020,6 +2236,18 @@
         "Article": 1,
         "Spanish": "vaso",
         "Translation": "\u0441\u0442\u0430\u043A\u0430\u043D"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "vecina",
+        "Translation": "\u0441\u043E\u0441\u0435\u0434\u043A\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "vecino",
+        "Translation": "\u0441\u043E\u0441\u0435\u0434"
       },
       {
         "$type": "Other",
@@ -2719,8 +2947,26 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "lo",
+        "Translation": "\u0435\u0433\u043E / \u044D\u0442\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "mi",
+        "Translation": "\u043C\u043E\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "nosotros",
         "Translation": "\u043C\u044B"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "nuestro",
+        "Translation": "\u043D\u0430\u0448"
       },
       {
         "$type": "Other",
@@ -2773,6 +3019,18 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "su",
+        "Translation": "\u0435\u0433\u043E / \u0435\u0451 / \u0438\u0445 / \u0412\u0430\u0448"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "te",
+        "Translation": "\u0442\u0435\u0431\u0435 / \u0443 \u0442\u0435\u0431\u044F"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "tu",
         "Translation": "\u0442\u0432\u043E\u0439(\u044F)"
       },
@@ -2817,6 +3075,12 @@
         "Article": 0,
         "Spanish": "vosotros",
         "Translation": "\u0432\u044B (\u0433\u0440\u0443\u043F\u043F\u0430 \u043B\u044E\u0434\u0435\u0439)"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "vuestro",
+        "Translation": "\u0432\u0430\u0448"
       },
       {
         "$type": "Other",
@@ -2883,6 +3147,12 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "antes",
+        "Translation": "\u043F\u0435\u0440\u0435\u0434 / \u043F\u0440\u0435\u0436\u0434\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "buen",
         "Translation": "\u0445\u043E\u0440\u043E\u0448\u043E"
       },
@@ -2891,6 +3161,12 @@
         "Article": 0,
         "Spanish": "de d\u00F3nde",
         "Translation": "\u043E\u0442\u043A\u0443\u0434\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "despu\u00E9s",
+        "Translation": "\u043F\u043E\u0441\u043B\u0435 / \u043F\u043E\u0437\u0436\u0435"
       },
       {
         "$type": "Other",
@@ -2909,6 +3185,12 @@
         "Article": 0,
         "Spanish": "frecuentemente",
         "Translation": "\u0447\u0430\u0441\u0442\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "fuera",
+        "Translation": "\u0441\u043D\u0430\u0440\u0443\u0436\u0438 / \u0432\u043D\u0435"
       },
       {
         "$type": "Other",
@@ -3198,6 +3480,12 @@
         "Article": 1,
         "Spanish": "maletero",
         "Translation": "\u0431\u0430\u0433\u0430\u0436\u043D\u0438\u043A"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "mentira",
+        "Translation": "\u043B\u043E\u0436\u044C / \u043D\u0435\u043F\u0440\u0430\u0432\u0434\u0430"
       },
       {
         "$type": "Other",
@@ -4005,43 +4293,6 @@
     "_name": "\u041F\u0440\u0438\u043B\u0430\u0433\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0435"
   },
   {
-    "ApprovedName": "\u041F\u0440\u0438\u0442\u044F\u0436\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0435",
-    "IsSelected": false,
-    "Entries": [
-      {
-        "$type": "Other",
-        "Article": 0,
-        "Spanish": "mi",
-        "Translation": "\u043C\u043E\u0439"
-      },
-      {
-        "$type": "Other",
-        "Article": 0,
-        "Spanish": "nuestro",
-        "Translation": "\u043D\u0430\u0448"
-      },
-      {
-        "$type": "Other",
-        "Article": 0,
-        "Spanish": "su",
-        "Translation": "\u0435\u0433\u043E / \u0435\u0451 / \u0438\u0445 / \u0412\u0430\u0448"
-      },
-      {
-        "$type": "Other",
-        "Article": 0,
-        "Spanish": "tu",
-        "Translation": "\u0442\u0432\u043E\u0439"
-      },
-      {
-        "$type": "Other",
-        "Article": 0,
-        "Spanish": "vuestro",
-        "Translation": "\u0432\u0430\u0448"
-      }
-    ],
-    "_name": "\u041F\u0440\u0438\u0442\u044F\u0436\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0435"
-  },
-  {
     "ApprovedName": "\u041F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u0438",
     "IsSelected": false,
     "Entries": [
@@ -4074,6 +4325,18 @@
         "Article": 2,
         "Spanish": "entrenadora",
         "Translation": "\u0442\u0440\u0435\u043D\u0435\u0440 (\u0436)"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "m\u00E9dica",
+        "Translation": "\u0432\u0440\u0430\u0447 (\u0436)"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "m\u00E9dico",
+        "Translation": "\u0432\u0440\u0430\u0447 (\u043C)"
       },
       {
         "$type": "Other",
@@ -4526,9 +4789,9 @@
     "Entries": [
       {
         "$type": "Other",
-        "Article": 0,
-        "Spanish": null,
-        "Translation": null
+        "Article": 2,
+        "Spanish": "barbilla",
+        "Translation": "\u043F\u043E\u0434\u0431\u043E\u0440\u043E\u0434\u043E\u043A"
       },
       {
         "$type": "Other",
@@ -4583,6 +4846,12 @@
         "Article": 2,
         "Spanish": "cintura",
         "Translation": "\u0442\u0430\u043B\u0438\u044F"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "codo",
+        "Translation": "\u043B\u043E\u043A\u043E\u0442\u044C"
       },
       {
         "$type": "Other",
@@ -4665,6 +4934,12 @@
       {
         "$type": "Other",
         "Article": 2,
+        "Spanish": "mejilla",
+        "Translation": "\u0449\u0435\u043A\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
         "Spanish": "mu\u00F1eca",
         "Translation": "\u0437\u0430\u043F\u044F\u0441\u0442\u044C\u0435"
       },
@@ -4727,6 +5002,12 @@
         "Article": 1,
         "Spanish": "sexo",
         "Translation": "\u0431\u0438\u043E\u043B\u043E\u0433\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u043F\u043E\u043B"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "sonrisa",
+        "Translation": "\u0443\u043B\u044B\u0431\u043A\u0430"
       },
       {
         "$type": "Other",
@@ -4866,6 +5147,12 @@
         "Article": 1,
         "Spanish": "n\u00FAmero",
         "Translation": "\u0447\u0438\u0441\u043B\u043E / \u043D\u043E\u043C\u0435\u0440"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "palabra",
+        "Translation": "\u0441\u043B\u043E\u0432\u043E"
       },
       {
         "$type": "Other",
