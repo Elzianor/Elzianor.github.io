@@ -174,6 +174,12 @@
       },
       {
         "$type": "Other",
+        "Article": 2,
+        "Spanish": "fiesta",
+        "Translation": "\u043F\u0440\u0430\u0437\u0434\u043D\u0438\u043A / \u0432\u0435\u0447\u0435\u0440\u0438\u043D\u043A\u0430"
+      },
+      {
+        "$type": "Other",
         "Article": 1,
         "Spanish": "f\u00FAtbol",
         "Translation": "\u0444\u0443\u0442\u0431\u043E\u043B"
@@ -201,6 +207,12 @@
         "Article": 2,
         "Spanish": "pel\u00EDcula",
         "Translation": "\u0444\u0438\u043B\u044C\u043C"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "pesa",
+        "Translation": "\u0433\u0438\u0440\u044F / \u0433\u0430\u043D\u0442\u0435\u043B\u044C"
       },
       {
         "$type": "Other",
@@ -237,12 +249,6 @@
         "Article": 1,
         "Spanish": "yoga",
         "Translation": "\u0439\u043E\u0433\u0430"
-      },
-      {
-        "$type": "Other",
-        "Article": 2,
-        "Spanish": "pesa",
-        "Translation": "\u0433\u0438\u0440\u044F / \u0433\u0430\u043D\u0442\u0435\u043B\u044C"
       }
     ],
     "_name": "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438"
@@ -3135,12 +3141,6 @@
       {
         "$type": "Other",
         "Article": 0,
-        "Spanish": "tan",
-        "Translation": "\u043D\u0430\u0441\u0442\u043E\u043B\u044C\u043A\u043E / \u0442\u0430\u043A"
-      },
-      {
-        "$type": "Other",
-        "Article": 0,
         "Spanish": "a menudo",
         "Translation": "\u0447\u0430\u0441\u0442\u043E"
       },
@@ -3275,6 +3275,12 @@
         "Article": 0,
         "Spanish": "tambi\u00E9n",
         "Translation": "\u0442\u043E\u0436\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "tan",
+        "Translation": "\u043D\u0430\u0441\u0442\u043E\u043B\u044C\u043A\u043E / \u0442\u0430\u043A"
       },
       {
         "$type": "Other",
@@ -3472,6 +3478,12 @@
       {
         "$type": "Other",
         "Article": 2,
+        "Spanish": "idea",
+        "Translation": "\u0438\u0434\u0435\u044F"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
         "Spanish": "imagen",
         "Translation": "\u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 / \u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0430"
       },
@@ -3648,6 +3660,12 @@
         "Article": 2,
         "Spanish": "vez",
         "Translation": "\u0441\u043B\u0443\u0447\u0430\u0439 / \u0441\u043E\u0431\u044B\u0442\u0438\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "vida",
+        "Translation": "\u0436\u0438\u0437\u043D\u044C"
       },
       {
         "$type": "Other",
@@ -4143,7 +4161,7 @@
         "$type": "Other",
         "Article": 0,
         "Spanish": "est\u00FApido",
-        "Translation": "\u0442\u0443\u043F\u043E\u0439 (\u0433\u043B\u0443\u043F\u044B\u0439)"
+        "Translation": "\u0438\u0434\u0438\u043E\u0442 / \u0442\u0443\u043F\u043E\u0439"
       },
       {
         "$type": "Other",
@@ -4388,6 +4406,12 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "tonto",
+        "Translation": "\u0433\u043B\u0443\u043F\u044B\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "tranquilo",
         "Translation": "\u0441\u043F\u043E\u043A\u043E\u0439\u043D\u044B\u0439"
       },
@@ -4510,6 +4534,42 @@
       },
       {
         "$type": "Other",
+        "Article": 5,
+        "Spanish": "adolescente",
+        "Translation": "\u043F\u043E\u0434\u0440\u043E\u0441\u0442\u043E\u043A"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "adulta",
+        "Translation": "\u0432\u0437\u0440\u043E\u0441\u043B\u044B\u0439 \u0447\u0435\u043B\u043E\u0432\u0435\u043A (\u0436)"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "adulto",
+        "Translation": "\u0432\u0437\u0440\u043E\u0441\u043B\u044B\u0439 \u0447\u0435\u043B\u043E\u0432\u0435\u043A (\u043C)"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "anciana",
+        "Translation": "\u043F\u043E\u0436\u0438\u043B\u043E\u0439 \u0447\u0435\u043B\u043E\u0432\u0435\u043A (\u0436)"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "anciano",
+        "Translation": "\u043F\u043E\u0436\u0438\u043B\u043E\u0439 \u0447\u0435\u043B\u043E\u0432\u0435\u043A (\u043C)"
+      },
+      {
+        "$type": "Other",
+        "Article": 5,
+        "Spanish": "beb\u00E9",
+        "Translation": "\u043C\u043B\u0430\u0434\u0435\u043D\u0435\u0446"
+      },
+      {
+        "$type": "Other",
         "Article": 0,
         "Spanish": "casada",
         "Translation": "\u0437\u0430\u043C\u0443\u0436\u0435\u043C"
@@ -4571,6 +4631,12 @@
       {
         "$type": "Other",
         "Article": 2,
+        "Spanish": "madrina",
+        "Translation": "\u043A\u0440\u0451\u0441\u0442\u043D\u0430\u044F \u043C\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
         "Spanish": "mam\u00E1",
         "Translation": "\u043C\u0430\u043C\u0430"
       },
@@ -4589,8 +4655,8 @@
       {
         "$type": "Other",
         "Article": 0,
-        "Spanish": "mediano(a)",
-        "Translation": "\u0441\u0440\u0435\u0434\u043D\u0438\u0439(\u044F\u044F)"
+        "Spanish": "mediano",
+        "Translation": "\u0441\u0440\u0435\u0434\u043D\u0438\u0439"
       },
       {
         "$type": "Other",
@@ -4600,9 +4666,27 @@
       },
       {
         "$type": "Other",
+        "Article": 2,
+        "Spanish": "nieta",
+        "Translation": "\u0432\u043D\u0443\u0447\u043A\u0430"
+      },
+      {
+        "$type": "Other",
         "Article": 1,
-        "Spanish": "nombre",
-        "Translation": "\u0438\u043C\u044F"
+        "Spanish": "nieto",
+        "Translation": "\u0432\u043D\u0443\u043A"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "ni\u00F1a",
+        "Translation": "\u0440\u0435\u0431\u0451\u043D\u043E\u043A (\u0436)"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "ni\u00F1o",
+        "Translation": "\u0440\u0435\u0431\u0451\u043D\u043E\u043A (\u043C)"
       },
       {
         "$type": "Other",
@@ -4631,6 +4715,12 @@
       {
         "$type": "Other",
         "Article": 1,
+        "Spanish": "padrino",
+        "Translation": "\u043A\u0440\u0451\u0441\u0442\u043D\u044B\u0439 \u043E\u0442\u0435\u0446"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
         "Spanish": "pap\u00E1",
         "Translation": "\u043F\u0430\u043F\u0430"
       },
@@ -4639,6 +4729,12 @@
         "Article": 2,
         "Spanish": "pareja",
         "Translation": "\u043F\u0430\u0440\u0430 / \u043F\u0430\u0440\u0442\u043D\u0451\u0440(\u0448\u0430)"
+      },
+      {
+        "$type": "Other",
+        "Article": 5,
+        "Spanish": "pariente",
+        "Translation": "\u0440\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0438\u043A(\u0446\u0430)"
       },
       {
         "$type": "Other",
@@ -4681,6 +4777,18 @@
         "Article": 0,
         "Spanish": "soltero",
         "Translation": "\u0445\u043E\u043B\u043E\u0441\u0442\u043E\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 2,
+        "Spanish": "suegra",
+        "Translation": "\u0441\u0432\u0435\u043A\u0440\u043E\u0432\u044C / \u0442\u0451\u0449\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "suegro",
+        "Translation": "\u0441\u0432\u0451\u043A\u043E\u0440 / \u0442\u0435\u0441\u0442\u044C"
       },
       {
         "$type": "Other",
@@ -5219,6 +5327,12 @@
         "Article": 2,
         "Spanish": "directora",
         "Translation": "\u0434\u0438\u0440\u0435\u043A\u0442\u043E\u0440 (\u0436)"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "estudiante",
+        "Translation": "\u0443\u0447\u0435\u043D\u0438\u043A / \u0441\u0442\u0443\u0434\u0435\u043D\u0442"
       },
       {
         "$type": "Other",
