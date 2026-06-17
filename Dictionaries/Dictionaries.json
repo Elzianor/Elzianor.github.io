@@ -502,6 +502,12 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "lo siento",
+        "Translation": "\u0438\u0437\u0432\u0438\u043D\u0438"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "me gusta",
         "Translation": "\u043C\u043D\u0435 \u043D\u0440\u0430\u0432\u0438\u0442\u0441\u044F (\u0435\u0434. \u0447.)"
       },
@@ -1103,6 +1109,18 @@
       },
       {
         "$type": "Verb",
+        "Spanish": "ense\u00F1ar",
+        "Conjugation": 1,
+        "Yo": "ense\u00F1o",
+        "Tu": "ense\u00F1as",
+        "ElElla": "ense\u00F1a",
+        "Nosotros": "ense\u00F1amos",
+        "Vosotros": "ense\u00F1\u00E1is",
+        "Ellos": "ense\u00F1an",
+        "Translation": "\u0443\u0447\u0438\u0442\u044C / \u043E\u0431\u0443\u0447\u0430\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
         "Spanish": "entrenar",
         "Conjugation": 1,
         "Yo": "entreno",
@@ -1367,6 +1385,18 @@
       },
       {
         "$type": "Verb",
+        "Spanish": "pasear",
+        "Conjugation": 1,
+        "Yo": "paseo",
+        "Tu": "paseas",
+        "ElElla": "pasea",
+        "Nosotros": "paseamos",
+        "Vosotros": "pase\u00E1is",
+        "Ellos": "pasean",
+        "Translation": "\u0433\u0443\u043B\u044F\u0442\u044C / \u043F\u0440\u043E\u0433\u0443\u043B\u0438\u0432\u0430\u0442\u044C\u0441\u044F"
+      },
+      {
+        "$type": "Verb",
         "Spanish": "patinar",
         "Conjugation": 1,
         "Yo": "patino",
@@ -1499,6 +1529,18 @@
       },
       {
         "$type": "Verb",
+        "Spanish": "sentir",
+        "Conjugation": 3,
+        "Yo": "sento",
+        "Tu": "sentes",
+        "ElElla": "sente",
+        "Nosotros": "sentimos",
+        "Vosotros": "sent\u00EDs",
+        "Ellos": "senten",
+        "Translation": "\u0447\u0443\u0432\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C / \u043E\u0449\u0443\u0449\u0430\u0442\u044C / \u0441\u043E\u0436\u0430\u043B\u0435\u0442\u044C"
+      },
+      {
+        "$type": "Verb",
         "Spanish": "ser",
         "Conjugation": 6,
         "Yo": "soy",
@@ -1544,6 +1586,18 @@
         "Vosotros": "toc\u00E1is",
         "Ellos": "tocan",
         "Translation": "\u0438\u0433\u0440\u0430\u0442\u044C (\u043D\u0430 \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u0435)"
+      },
+      {
+        "$type": "Verb",
+        "Spanish": "tomar",
+        "Conjugation": 1,
+        "Yo": "tomo",
+        "Tu": "tomas",
+        "ElElla": "toma",
+        "Nosotros": "tomamos",
+        "Vosotros": "tom\u00E1is",
+        "Ellos": "toman",
+        "Translation": "\u0431\u0440\u0430\u0442\u044C / \u043F\u0438\u0442\u044C"
       },
       {
         "$type": "Verb",
@@ -2863,6 +2917,12 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "algo",
+        "Translation": "\u0447\u0442\u043E-\u0442\u043E / \u043A\u043E\u0435-\u0447\u0442\u043E"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "alg\u00FAn(a)",
         "Translation": "\u043A\u0430\u043A\u043E\u0439(\u0430\u044F)-\u0442\u043E"
       },
@@ -3195,6 +3255,12 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "entonces",
+        "Translation": "\u0438\u0442\u0430\u043A / \u0432 \u0442\u0430\u043A\u043E\u043C \u0441\u043B\u0443\u0447\u0430\u0435"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "frecuentemente",
         "Translation": "\u0447\u0430\u0441\u0442\u043E"
       },
@@ -3269,6 +3335,12 @@
         "Article": 0,
         "Spanish": "siempre",
         "Translation": "\u0432\u0441\u0435\u0433\u0434\u0430"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "solamente",
+        "Translation": "\u0442\u043E\u043B\u044C\u043A\u043E / \u043B\u0438\u0448\u044C"
       },
       {
         "$type": "Other",
@@ -4082,6 +4154,12 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "\u00E1rabe",
+        "Translation": "\u0430\u0440\u0430\u0431\u0441\u043A\u0438\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "atl\u00E9tico",
         "Translation": "\u0430\u0442\u043B\u0435\u0442\u0438\u0447\u043D\u044B\u0439"
       },
@@ -4162,6 +4240,18 @@
         "Article": 0,
         "Spanish": "est\u00FApido",
         "Translation": "\u0438\u0434\u0438\u043E\u0442 / \u0442\u0443\u043F\u043E\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "f\u00E1cil",
+        "Translation": "\u043B\u0451\u0433\u043A\u0438\u0439"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "favorito",
+        "Translation": "\u043B\u044E\u0431\u0438\u043C\u044B\u0439 / \u043F\u0440\u0435\u0434\u043F\u043E\u0447\u0438\u0442\u0430\u0435\u043C\u044B\u0439"
       },
       {
         "$type": "Other",
@@ -4903,7 +4993,7 @@
         "$type": "Other",
         "Article": 0,
         "Spanish": "y",
-        "Translation": "\u0438"
+        "Translation": "\u0438 / \u0430"
       }
     ],
     "_name": "\u0421\u043E\u044E\u0437\u044B"
@@ -5309,6 +5399,12 @@
         "Article": 1,
         "Spanish": "compa\u00F1ero",
         "Translation": "\u0442\u043E\u0432\u0430\u0440\u0438\u0449 (\u043C)"
+      },
+      {
+        "$type": "Other",
+        "Article": 1,
+        "Spanish": "curso",
+        "Translation": "\u043A\u0443\u0440\u0441 (\u0437\u0430\u043D\u044F\u0442\u0438\u044F)"
       },
       {
         "$type": "Other",
