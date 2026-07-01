@@ -3109,8 +3109,8 @@
       {
         "$type": "Other",
         "Article": 0,
-        "Spanish": "ellos(as)",
-        "Translation": "\u043E\u043D\u0438 (\u043C/\u0436)"
+        "Spanish": "ellos",
+        "Translation": "\u043E\u043D\u0438"
       },
       {
         "$type": "Other",
@@ -3163,6 +3163,12 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "mis",
+        "Translation": "\u043C\u043E\u0438"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "nosotros",
         "Translation": "\u043C\u044B"
       },
@@ -3171,6 +3177,12 @@
         "Article": 0,
         "Spanish": "nuestro",
         "Translation": "\u043D\u0430\u0448"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "nuestros",
+        "Translation": "\u043D\u0430\u0448\u0438"
       },
       {
         "$type": "Other",
@@ -3229,6 +3241,12 @@
       {
         "$type": "Other",
         "Article": 0,
+        "Spanish": "sus",
+        "Translation": "\u0438\u0445 / \u0412\u0430\u0448\u0438"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
         "Spanish": "te",
         "Translation": "\u0442\u0435\u0431\u0435 / \u0443 \u0442\u0435\u0431\u044F"
       },
@@ -3236,13 +3254,19 @@
         "$type": "Other",
         "Article": 0,
         "Spanish": "tu",
-        "Translation": "\u0442\u0432\u043E\u0439(\u044F)"
+        "Translation": "\u0442\u0432\u043E\u0439"
       },
       {
         "$type": "Other",
         "Article": 0,
         "Spanish": "t\u00FA",
         "Translation": "\u0442\u044B"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "tus",
+        "Translation": "\u0442\u0432\u043E\u0438"
       },
       {
         "$type": "Other",
@@ -3285,6 +3309,12 @@
         "Article": 0,
         "Spanish": "vuestro",
         "Translation": "\u0432\u0430\u0448"
+      },
+      {
+        "$type": "Other",
+        "Article": 0,
+        "Spanish": "vuestros",
+        "Translation": "\u0432\u0430\u0448\u0438"
       },
       {
         "$type": "Other",
