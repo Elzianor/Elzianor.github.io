@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tarjetas — Support</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --ink: #1b1b1f;
+    --muted: #5c5c66;
+    --page: #ffffff;
+    --rule: #e2e2e8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #e8e8ec; --muted: #a0a0ab; --page: #16161a; --rule: #2c2c33; }
+  }
+  body {
+    margin: 0 auto;
+    padding: 3rem 1.25rem 5rem;
+    max-width: 42rem;
+    background: var(--page);
+    color: var(--ink);
+    font: 16px/1.65 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  h1 { font-size: 1.6rem; margin: 0 0 .25rem; }
+  h2 { font-size: 1.1rem; margin: 2.5rem 0 .5rem; }
+  .date { color: var(--muted); margin: 0 0 2rem; font-size: .9rem; }
+  ul { padding-left: 1.2rem; }
+  li { margin: .35rem 0; }
+  code { font-size: .9em; }
+  footer { margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .9rem; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+
+<h1>Support — Tarjetas</h1>
+
+<p class="date">Last updated 7 September 2026</p>
+
+<p><strong>Tarjetas</strong> — <em>Vladyslav Pysarenko</em> — <em><a href="mailto:urunokun@gmail.com">urunokun@gmail.com</a></em></p>
+
+<p>Write to that address about anything here. It is one person, so an answer may take a few days; reports made from inside the app are handled faster and separately — see <em>Reporting somebody</em> below.</p>
+
+<h2>Before you write</h2>
+
+<p>There is no account, no password and no email address in Tarjetas. That removes most of what a support page usually exists for, and it creates one problem of its own, which is the first entry below. Everything else is a matter of knowing where a button is.</p>
+
+<h2>The code people find you by</h2>
+
+<p>Your code is on the Settings tab. It is eight characters, it is drawn once when the app first opens, and it is what a friend types to reach you. It is not a username: there is no directory, no search and no way to look somebody up by name.</p>
+
+<p><strong>A code cannot be restored by anybody.</strong> Not by the developer, and not by the server. There is no password to reset and no email address to send a link to, so the only thing that carries your code to another phone is your phone's own backup — Android's auto-backup to your Google account, or iCloud to your Apple account. Both are on by default and both include this app.</p>
+
+<p>If you wipe a phone with backup turned off, or move between Android and iOS — neither backup can be read by the other — the app opens as a new user with a new code. Your friends will need the new one, and classes you had joined will need joining again with their codes. Nobody can hand back the old code, and asking will not change that. It is worth checking your backup setting before replacing a phone rather than after.</p>
+
+<h2>Words, progress and classes</h2>
+
+<p>Your dictionary and your drill progress are on your device and are never on any server. They travel with your phone's backup, exactly as your code does, and they are removed by uninstalling the app.</p>
+
+<p>A class you made stays on your device too. Deleting your account takes it off the server — nobody can join it any more — but the lessons you wrote stay where you wrote them.</p>
+
+<h2>The drill</h2>
+
+<p>A word you know comes back in a day, then three, then a week, then three weeks, then two months. A word you miss comes back in the same sitting.</p>
+
+<p>Knowing a word <strong>before</strong> it is due does not move it up. If you drill the same short list repeatedly in one afternoon, the intervals will not grow, and that is deliberate — the schedule is built on the repetitions being spread out, and a word recalled a minute after you last saw it has not shown that it will be there tomorrow.</p>
+
+<p>An empty deck means there is nothing due. Add words on the Dictionary tab, or wait.</p>
+
+<h2>Classrooms</h2>
+
+<p>A teacher makes a class and reads out its code. A student types that code on the Classroom tab. Codes are eight characters and are typed the way they are read — the app folds the pairs that are easy to confuse, so an O typed for a zero still finds the class.</p>
+
+<p>Set whether you are a teacher or a student on the Settings tab. You can be both at different times, and you can join your own class if you want to see what a student sees.</p>
+
+<p>If a code is refused, the class is not on the server the app is pointed at. Check that you and the teacher are on the same server address — see below — and that the class has been published rather than only written.</p>
+
+<h2>Friends, and dictionaries sent between them</h2>
+
+<p>Type a friend's code on the Friends tab. They have to accept before either of you sees the other's name. A request to a code that names nobody is refused, and that refusal is the whole of what any code can tell you: there is no way to find out whether a stranger exists.</p>
+
+<p>A dictionary you send waits on the server until your friend takes it in. Sending again replaces what was waiting rather than stacking a second copy beside it. Words arrive filed under no topic — how you arrange your own list is yours and does not travel.</p>
+
+<h2>The server, and using the app without one</h2>
+
+<p>The app arrives already pointing at a server, so the Classroom and Friends tabs work without anybody being told an address. <strong>Being pointed at one is not being on it.</strong> The app writes you nowhere until you use one of those two tabs; drilling your own words never does.</p>
+
+<p>The Learn, Dictionary and Settings tabs work with no connection at all, and always have.</p>
+
+<p>You can point the app at a different server — a teacher running one on the classroom's own network, say — by typing its address on the Settings tab. The field accepts <code>https://</code> anywhere, and plain <code>http://</code> only for an address on your own network, which is where a certificate cannot be had. An address that shows no tick is one the app will not use.</p>
+
+<p>There is a switch on the same tab to keep the app off the network entirely.</p>
+
+<p>The first time the app calls a server on your local network, iOS asks permission. If you refuse it, syncing fails in a way that looks exactly like a server being switched off.</p>
+
+<h2>Reporting somebody</h2>
+
+<p>Every place another person's words can reach you carries a flag: a friend's row, a student on a roster, the teacher of a class you have joined, a dictionary a friend has sent, and — while you are taking one in — any single word in it. Flagging opens one sheet, asks which of five reasons, and sends a copy of the text complained of along with it.</p>
+
+<p>The word-level flag is the one worth knowing about. Reporting a whole dictionary sends every word in it with no indication of which one was the problem; reporting the word sends that word, with the parcel or the class named around it.</p>
+
+<p><strong>Reports are read within 72 hours</strong>, usually much sooner. What can follow ranges from a name or a note being taken down to an account being removed.</p>
+
+<h2>Blocking</h2>
+
+<p>Blocking is on the same sheet and needs no report first, no reason, and no server round trip you have to wait for. It ends the friendship, empties anything waiting in either direction, takes the person off your rosters, and refuses everything they send afterwards. It survives reinstalling the app.</p>
+
+<p>It is undone from the Settings tab. Blocking somebody is never disclosed to them.</p>
+
+<h2>Deleting your account</h2>
+
+<p>Settings → Account → the bin. It asks first and shows what will go.</p>
+
+<p>It removes from the server your code and profile, every friendship and unanswered request, the classes you published with their student lists, every shared dictionary to or from you, and every block and report in either direction. It cannot be undone.</p>
+
+<p>Your words, your progress and the classes on your own device are not touched — they were never on the server. What deletion cannot reach is a copy somebody else already has: a friend who has taken a dictionary you sent is holding those words on their own phone.</p>
+
+<p>If you would rather ask a person to do it for you, write to the address at the top.</p>
+
+<h2>Interface languages</h2>
+
+<p>The app itself reads in English, French, German, Italian or Ukrainian, chosen on the Settings tab. That is the language the buttons and labels are in.</p>
+
+<p>It is not a setting for what you are learning. Tarjetas teaches Spanish, and the other side of each card is whatever you type there — the translation column is your own words, in whatever language you write them, and the app does not need to be told which.</p>
+
+<h2>Privacy</h2>
+
+<p>The full policy is at <a href="https://elzianor.github.io/Tarjetas/privacy.html">https://elzianor.github.io/Tarjetas/privacy.html</a>. In short: no advertising, no analytics, no tracking, no third-party services, and nothing about you sold, shared or profiled.</p>
+
+<h2>Reporting a bug</h2>
+
+<p>Write to the address at the top. What helps most: which phone, its OS version, what you did, and what happened instead of what you expected. A screenshot says most of that at once.</p>
+
+<footer>
+Tarjetas — <a href="privacy.html">Privacy Policy</a> — <a href="https://github.com/Elzianor/Tarjetas">github.com/Elzianor/Tarjetas</a>
+</footer>
+
+</body>
+</html>
