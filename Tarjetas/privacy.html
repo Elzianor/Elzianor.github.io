@@ -45,7 +45,8 @@ address. It sends nothing anywhere until you use the half of it that needs someb
 the classroom or the friends page — and what it sends then is only what has to reach them:
 the name you type, the emoji you pick, the code people find you by, and the things you
 deliberately hand over — a class you publish, a friend request you send, a dictionary you
-give a friend.</p>
+give a friend. Moving to a new phone, when you choose to, carries the rest of what the app
+keeps for you, sealed so that the server passing it on cannot read it.</p>
 
 <p>The app arrives already pointing at a server, so that those two pages work without anybody
 having to be told an address. Being pointed at one is not being on it: opening the app
@@ -79,9 +80,11 @@ Nothing about you is sold or profiled, and nothing is shared beyond what this pa
 
 </ul>
 
-<p>None of this is sent to the developer or to anybody else. Uninstalling the app removes all of
-it from the device — see <em>Backup</em> below for the one copy that is not on the device and is not
-the developer's either.</p>
+<p>None of this is sent to the developer or to anybody else. The one exception is a move to a new
+phone that you make yourself, which carries it — sealed, so that the server passing it on cannot
+read it — see <em>Moving to a new phone</em> below. Uninstalling the app removes all of it from the
+device — see <em>Backup</em> below for the one copy that is not on the device and is not the developer's
+either.</p>
 
 <h2>What is sent to a server, and when</h2>
 
@@ -91,10 +94,10 @@ classroom and the friends page work without anybody having to be told an address
 
 <p>Being pointed at it is not being on it. A device that has never claimed a code is not
 allowed to claim one on a sync nobody asked for, so opening the app writes you nowhere. Your
-code is claimed the first time you open the friends or classroom page, add somebody, or
-publish or join a class — the half of the app that needs other people, and the only half
-that needs a code at all. Somebody who installs Tarjetas, drills their own words for a year
-and never opens those two pages has no record on the server at all.</p>
+code is claimed the first time you open the friends or classroom page, add somebody, publish or
+join a class, or move to a new phone — the half of the app that needs other people or another
+phone, and the only half that needs a code at all. Somebody who installs Tarjetas, drills their
+own words for a year and never does any of those has no record on the server at all.</p>
 
 <p>The Server field on the Settings page holds that address and it is yours to change. A
 teacher running their own server types its address over the top, and this policy stops
@@ -125,13 +128,31 @@ you out of a class, only the teacher still sees you listed in it.</p>
 <p><strong>Students you take out of a class, as a teacher.</strong> Their code, the class code and the date,
 so the class stops reaching them. Their own phone is told, so they see that their teacher
 removed them rather than wondering why nothing new arrives. The lessons they already have stay
-on their phone.</p>
+on their phone. The list comes back to you with your own classes, so that a new phone of yours
+can still let them back in.</p>
 
 <p><strong>A key on a class, as a teacher.</strong> If you put a key on a class, the server keeps it beside the
 class, so that knowing the code is no longer enough to join. It is never handed out with the
-class: your students do not receive it, and the server gives it to nobody. Making a new key
-replaces it, and taking the key off deletes it. A student who types the key keeps it on their
-own phone, so that the phone can get back into the class by itself.</p>
+class: your students do not receive it, and the server gives it to nobody but you — it comes
+back with your own classes, so that a new phone of yours keeps the class shut rather than
+publishing it without one. Making a new key replaces it, and taking the key off deletes it. A
+student who types the key keeps it on their own phone, so that the phone can get back into the
+class by itself.</p>
+
+<p><strong>Moving to a new phone.</strong> If you ask for a move code on the Settings page, your phone makes the
+code and keeps it. What it sends the server is a scrambled form of the code, from which the code
+cannot be worked back, and a parcel sealed with the code itself: your settings, the classes you
+have joined or kept, your homework answers — including any not handed in — and your drill
+progress. Your dictionary is never in it. The server keeps the two for an hour at most, and less
+if the code is used or you close it first. It never has the code, so it cannot open the parcel:
+the phone you type the code on sends a second scrambled form of it, which the server checks
+against the first. Typing the code on another phone gives that phone your account — your code,
+your name and emoji, your classes with everything the server keeps about them, your friends and
+your blocks — and the parcel, which that phone opens with the code; the server's copy of the
+parcel goes then. The proof of the account your old phone held stops working at that moment, and
+a scrambled copy of it is kept so that the old phone can be told why and let go of the account,
+rather than start a new one with your classes on it. That copy names nobody and says nothing
+about who held it.</p>
 
 <p><strong>Homework you hand in, as a student.</strong> Your answer as you wrote it, your code, the class code,
 the lesson it answers and the time you handed it in. Only the teacher of that class can read it;
@@ -140,7 +161,7 @@ you delete your account, when the teacher deletes the lesson or the class, or wh
 deletes their account. While you are out of the class — you left, or the teacher took you out —
 the teacher does not see it. Your answers are also kept on your own phone, so you can read and
 correct them without a connection. An answer you have written but not yet handed in stays on your
-phone and is sent nowhere.</p>
+phone and is sent nowhere, except sealed inside a move to a new phone that you make yourself.</p>
 
 <p><strong>Answers you check, as a teacher.</strong> The mistakes you mark in an answer — which words, and what
 you wrote about each — and the time you marked it checked, kept with the answer. Only the student
@@ -353,6 +374,13 @@ comes back as a new user with a new code, and nobody can restore the old one —
 developer, and not the server. The same is true if you move between an Android phone and an
 iPhone, since neither backup can be read by the other.</p>
 
+<p>Anybody who still has the old phone in hand has a second way, which needs no backup and works
+between the two platforms: the move code described under <em>Moving to a new phone</em>. The old phone
+shows it (Settings: the phone with the arrow going out), and the new phone takes it (the phone
+with the arrow coming in). It needs the old phone because there is no password: the phone that
+holds the account is the only thing that can vouch for moving it. It carries everything but your
+words, progress included; exporting and importing your words carries those.</p>
+
 <h2>Where the data is kept</h2>
 
 <p>The server this app is shipped pointing at is a virtual machine in the European Union,
@@ -367,14 +395,16 @@ will go. Confirming removes, from the server: your code and profile, every frien
 every unanswered request in either direction, the classes you published together with their
 student lists and the students taken out of them, every class you were taken out of, every
 shared dictionary to or from you, every block you have made and every block made against you,
-and every report you have made and every report made about you. It cannot be undone.</p>
+every report you have made and every report made about you, and a move you have readied and not
+used, with its sealed parcel. It cannot be undone.</p>
 
 <p>The reports and blocks go in both directions on purpose, and it is the one part of this that
 is not obvious. A code nobody holds is handed out again to the next device that asks for
 one, so a block or a report left behind naming your old code would attach itself to whoever
 next has it — somebody who has done nothing.</p>
 
-<p>Your words and your drill progress are not touched by this — they were never on the server.
+<p>Your words and your drill progress are not touched by this — they were never on the server, save
+your progress sealed inside a move, which goes with the account if unused.
 Neither are the classes on your own device: a class you made stays where you wrote it, with
 its lessons, the same way your dictionary does. What deletion takes from it is everybody
 else's way in. It is off the server, its code is registered to nobody, no one can join it and
