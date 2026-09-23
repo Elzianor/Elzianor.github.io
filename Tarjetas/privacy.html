@@ -36,7 +36,7 @@
 <body>
 
 <h1>Privacy Policy for Tarjetas</h1>
-<p class="date">Last updated 19 September 2026</p>
+<p class="date">Last updated 22 September 2026</p>
 
 <h2>The short version</h2>
 
@@ -51,11 +51,14 @@ give a friend.</p>
 having to be told an address. Being pointed at one is not being on it: opening the app
 writes you nowhere, and drilling your own words never does.</p>
 
-<p>Two things can leave your phone without either of those. If you say an answer, or words for your
+<p>Three things can leave your phone without either of those. If you say an answer, or words for your
 dictionary, aloud instead of typing them, your phone's own speech recognition may use the network
-to hear them — see <em>Saying an answer aloud</em>. And on Android, reading a word list off a photo or a
+to hear them — see <em>Saying an answer aloud</em>. On Android, reading a word list off a photo or a
 screenshot uses Google's ML Kit, a library inside the app, which tells Google how its reading went —
-never the picture, and never the words on it — see <em>Reading a photo or a screenshot</em>.</p>
+never the picture, and never the words on it. And if you turn Recognition to "In the cloud" in the
+settings, a photograph is sent to OCR.space to be read there instead of on the phone. That switch
+is off unless you turn it on, and it is the only thing in the app that sends a picture anywhere —
+see <em>Reading a photo or a screenshot</em>.</p>
 
 <p>There is no advertising and no tracking of any kind, and the app keeps no analytics of its own.
 Nothing about you is sold or profiled, and nothing is shared beyond what this page describes.</p>
@@ -243,6 +246,29 @@ diagnostics and usage statistics, and passes it to nobody else — see
 <a href="https://policies.google.com/privacy">Google's privacy policy</a>. None of it reaches the developer or
 the Tarjetas server.</p>
 
+<p><strong>Reading in the cloud, which is off unless you turn it on.</strong> The settings page has a Recognition
+switch with two ends: this phone, which is how the app arrives and everything above describes, and
+the cloud. Turn it to the cloud and a photograph is no longer read on the phone: it is sent, as a
+JPEG of up to a megabyte, to <a href="https://ocr.space">OCR.space</a>, which reads it and sends back the text.
+Nothing else goes with it — no name, no code, no account, nothing that says which phone or which
+person it came from, because the app has none of that to send. The service answers with text and the
+app puts it on the page for you to check, exactly as a photograph read on the phone is. OCR.space
+says it does not store the documents it is sent; their terms are at
+<a href="https://ocr.space/privacypolicy">ocr.space/privacypolicy</a>.</p>
+
+<p>Turning the switch back to this phone stops it, and nothing sent before that can be taken back — a
+picture once sent has been sent. If you would rather no photograph ever left the phone, leave the
+switch where it arrives.</p>
+
+<p><strong>The key it is read under.</strong> OCR.space wants a key with each picture. The app carries one, on a free
+plan the developer registered and pays nothing for, shared by every copy of the app; it is good for a
+fixed number of pictures a month across everybody, and when that is used up the service says so and
+the reading fails until the month turns. You can put a key of your own in the settings instead —
+OCR.space gives them away at <a href="https://ocr.space/ocrapi">ocr.space/ocrapi</a> — and then your pictures are
+read under your key and not the shared one. The key is kept on your phone and sent to OCR.space and
+to nobody else. The developer cannot see which pictures were read under either key, only how many the
+shared one has left.</p>
+
 <h2>What is never collected</h2>
 
 <p>No email address, password, phone number, real name, date of birth, location, contacts,
@@ -250,10 +276,13 @@ photos, calendar, payment details, recordings of your voice, device identifier o
 ID.</p>
 
 <p>No crash reporting, no advertising, no social network integration, and no analytics of the app's
-own. The one third-party library that sends anything is Google's ML Kit in the Android app, as
-described under <em>Reading a photo or a screenshot</em>. Apart from its report, the app talks to one server, which is the
-one whose address is in its settings, and to nothing else. Saying an answer or a word aloud uses
-your phone's own speech recognition, as described above, not a service of the app's.</p>
+own. Two third parties can receive anything at all, both described under <em>Reading a photo or a
+screenshot</em>: Google's ML Kit in the Android app, which reports on its own reading and never the
+picture; and OCR.space, which receives a photograph itself, but only where you have turned the
+Recognition switch to the cloud, and never anything saying whose it is. Apart from those, the app
+talks to one server, which is the one whose address is in its settings, and to nothing else. Saying
+an answer or a word aloud uses your phone's own speech recognition, as described above, not a
+service of the app's.</p>
 
 <h2>Permissions</h2>
 
