@@ -146,7 +146,9 @@ have joined or kept, your homework answers — including any not handed in — a
 progress. Your dictionary is never in it. The server keeps the two for an hour at most, and less
 if the code is used or you close it first. It never has the code, so it cannot open the parcel:
 the phone you type the code on sends a second scrambled form of it, which the server checks
-against the first. Typing the code on another phone gives that phone your account — your code,
+against the first. While the parcel waits, the server also locks it a second time, with a key
+of its own that is kept apart from the database and from every copy of it, so a copy of the
+database is no way into the parcel either. Typing the code on another phone gives that phone your account — your code,
 your name and emoji, your classes with everything the server keeps about them, your friends and
 your blocks — and the parcel, which that phone opens with the code; the server's copy of the
 parcel goes once that phone first uses your account, moments later. The proof of the account your
@@ -200,7 +202,9 @@ which is also where you undo it.</p>
 <p><strong>Reports you make.</strong> When you report a person, a class or a dictionary somebody has sent
 you: your code, theirs, which of those three it was, the reason you picked, and <strong>a copy of
 the text you were looking at</strong> — a display name, a lesson note, or the words in the
-dictionary — up to two thousand characters of it.</p>
+dictionary — up to two thousand characters of it. Reporting the same person over the same
+thing again, a second word from one dictionary say, adds to the first report rather than
+replacing it, still within those two thousand characters.</p>
 
 <p>That copy is the part worth being plain about, because it is the one thing in this app that
 sends somebody else's writing somewhere on your say-so. It is sent because a report without
@@ -388,12 +392,29 @@ rented from netcup GmbH. Its database is a single file on that machine, copied c
 to Cloudflare R2 object storage, also held within the European Union. No one else is given
 access to either.</p>
 
+<p>That copy follows the file within seconds, deletions included, and keeps a day's history as
+well, so that a mistake on the machine can be undone. Anything deleted from the server is
+gone from the copy within two days.</p>
+
+<p>Now and then the developer also takes a copy of the whole database onto their own computer —
+before a change to the server, say — so that it can be put back if the change goes wrong. Such
+a copy holds the database as it was at that moment, is kept for as long as the developer keeps
+it, and is deleted by hand rather than on a timetable. Something deleted from the server can
+therefore still be in a copy made before it was deleted. The copies are used for nothing but
+putting the server back, and nobody else is given them.</p>
+
+<p>The machine also keeps a log of the requests it answers, for finding faults and abuse: when
+each came, what it asked for with every code in it blanked out, and the internet address it
+came from, shortened so that it names a network rather than a device. Each day's log is
+deleted two weeks later.</p>
+
 <h2>Deleting it</h2>
 
 <p><strong>From inside the app</strong>: Settings → Account → the bin. It asks first, and shows you what
 will go. Confirming removes, from the server: your code and profile, every friendship and
 every unanswered request in either direction, the classes you published together with their
-student lists and the students taken out of them, every class you were taken out of, every
+student lists and the students taken out of them — a class a moderator took down included,
+with the homework, quizzes and results kept against it — every class you were taken out of, every
 shared dictionary to or from you, every block you have made and every block made against you,
 every report you have made and every report made about you, and a move you have readied and not
 used, with its sealed parcel. It cannot be undone.</p>
@@ -408,8 +429,11 @@ your progress sealed inside a move, which goes with the account if unused.
 Neither are the classes on your own device: a class you made stays where you wrote it, with
 its lessons, the same way your dictionary does. What deletion takes from it is everybody
 else's way in. It is off the server, its code is registered to nobody, no one can join it and
-its student list is gone. Deleting an account is meant to stop you being findable, not to
-take a term of lesson planning with it. Uninstalling the app removes those.</p>
+its student list is gone. The code is never given out again, to you or anybody: the phones
+of students who joined still ask for it now and then, and whoever held it next would have them
+walk straight in. Publish the class again and it gets a new code. Deleting an account is meant
+to stop you being findable, not to take a term of lesson planning with it. Uninstalling the app
+removes those.</p>
 
 <p>What deletion cannot reach is a copy somebody else already has. A friend who has taken the
 dictionary you sent them is holding those words on their own device; a student who has merged
@@ -420,7 +444,10 @@ any of it being handed out again — it does not travel to the phones where it h
 landed. Worth knowing before you rely on it, because "delete my account" reads to most people
 as "and everything that came from me", and for what has already been given away it is not.</p>
 
-<p>Nothing is kept after deletion, and there is no archive to ask about. If you would rather
+<p>Nothing is kept on the server after deletion but the bare codes of your classes, which name
+nothing and nobody and are kept only so that nobody can take them. The server's backup lets go
+of the rest within two days, and a copy the developer took by hand before your deletion keeps
+what it held until that copy is deleted, as <em>Where the data is kept</em> says. If you would rather
 ask a person to delete it for you, write to the address at the foot of this page.</p>
 
 <h2>Your rights</h2>
