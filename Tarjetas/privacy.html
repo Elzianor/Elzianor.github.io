@@ -36,7 +36,7 @@
 <body>
 
 <h1>Privacy Policy for Tarjetas</h1>
-<p class="date">Last updated 24 September 2026</p>
+<p class="date">Last updated 2 October 2026</p>
 
 <h2>The short version</h2>
 
@@ -61,6 +61,11 @@ settings, a photograph is sent to OCR.space to be read there instead of on the p
 is off unless you turn it on, and it is the only thing in the app that sends a picture anywhere —
 see <em>Reading a photo or a screenshot</em>.</p>
 
+<p>Tarjetas also runs in a web browser. There it keeps everything in the browser, and two things can
+go to the browser's own services rather than the phone's: what you say aloud, to be turned into
+text, and, where the browser has no Spanish voice installed, a word you ask to hear — see <em>Using
+Tarjetas in a browser</em>.</p>
+
 <p>There is no advertising and no tracking of any kind, and the app keeps no analytics of its own.
 Nothing about you is sold or profiled, and nothing is shared beyond what this page describes.</p>
 
@@ -84,7 +89,8 @@ Nothing about you is sold or profiled, and nothing is shared beyond what this pa
 phone that you make yourself, which carries it — sealed, so that the server passing it on cannot
 read it — see <em>Moving to a new phone</em> below. Uninstalling the app removes all of it from the
 device — see <em>Backup</em> below for the one copy that is not on the device and is not the developer's
-either.</p>
+either. In a browser, all of it is in the browser, and clearing that site's data removes it — see
+<em>Using Tarjetas in a browser</em>.</p>
 
 <h2>What is sent to a server, and when</h2>
 
@@ -297,6 +303,57 @@ came from Tarjetas. The key is kept on your phone and sent to OCR.space and to n
 developer cannot see which pictures were read under either key, only how many the shared one has
 left.</p>
 
+<h2>Using Tarjetas in a browser</h2>
+
+<p>Tarjetas also runs in a web browser, at <a href="https://tarjetas.elzianor.com">tarjetas.elzianor.com</a>, on
+the same server as everything above. It is the same app, and everything on this page holds for it,
+with these differences.</p>
+
+<p><strong>Where it keeps things.</strong> What <em>What stays on your device</em> lists is kept in your browser's own
+storage for that address, on the computer or phone you are using, and nowhere else. It is in no
+phone's backup, and your browser does not copy it to your other devices. Clearing that site's data
+in your browser removes it, just as uninstalling the app does, and so does closing a private window
+the app was used in, whose storage goes with it. The code people find you by goes too, and nothing
+can hand it back. The move code described under <em>Moving to a new phone</em> carries an account between
+a browser and a phone, in either direction. The app asks your browser to keep its storage rather
+than clear it to make room; most browsers decide that for themselves, and Firefox asks you. Even
+so, some browsers, Safari among them, delete a site's storage by themselves after a while without
+a visit — Safari not for the app added to the home screen, which keeps its own.</p>
+
+<p><strong>What it loads.</strong> Every file the browser version uses — the app itself, its fonts, and the reader
+for photos — comes from the app's own address. It loads nothing from any other site: no fonts,
+scripts or trackers from elsewhere. Its calls go to the same server the phones use, which accepts
+calls from a browser only when they come from the app's own address. The browser keeps a copy of
+those files, so that the app opens without a connection; the copy is the app itself and holds
+nothing about you, and clearing that site's data removes it with the rest.</p>
+
+<p><strong>Saying an answer aloud.</strong> In a browser the microphone button uses the browser's own speech
+recognition, and the browser asks you for the microphone itself, the first time you press the
+button. What you say is turned into text by the browser's maker: Chrome sends it to Google,
+Microsoft Edge to Microsoft, and Safari uses Apple's speech recognition, on the device or over the
+network as Apple decides — each under its maker's privacy policy. Firefox has no speech
+recognition, so there the button is not shown. As in the app, Tarjetas does not record, keep or
+send the sound; it is given only the text.</p>
+
+<p><strong>Hearing a word.</strong> The speak button uses a Spanish voice your browser provides, and chooses one
+installed on your computer or phone wherever there is one: that voice speaks on the device and sends
+nothing. Only where no Spanish voice is installed does it use an online one — Chrome's Google voices
+are such — which is sent the word in order to say it, under its maker's privacy policy.</p>
+
+<p><strong>Reading a photo or a screenshot.</strong> A picture is chosen through your browser's own file chooser —
+on a phone or a tablet, which can open its camera too — and Tarjetas is given only the one you
+choose. It is read inside the browser by Tesseract, a text reader the app downloads from its own
+address the first time it is needed and the browser keeps after; neither the picture nor the text
+read from it is sent anywhere. Google's ML Kit is no part of the browser version. The Recognition
+switch and OCR.space work exactly as described under <em>Reading a photo or a screenshot</em>.</p>
+
+<p><strong>Permissions.</strong> The browser asks for any permission itself, in its own words: the microphone, the
+camera where a phone's chooser opens it, and, in Firefox, whether to keep the app's storage.
+Refusing any of them changes nothing else in the app.</p>
+
+<p><strong>Deleting it.</strong> Settings → Account → the bin deletes your account from the server exactly as
+described under <em>Deleting it</em>. What is in the browser goes when you clear that site's data.</p>
+
 <h2>What is never collected</h2>
 
 <p>No email address, password, phone number, real name, date of birth, location, contacts,
@@ -311,7 +368,8 @@ each protects what it receives at least as well as this page protects what reach
 server: OCR.space deletes a picture once it has been read, and Google passes ML Kit's report to
 nobody. Apart from those, the app talks to one server, which is the one whose address is in its
 settings, and to nothing else. Saying an answer or a word aloud uses your phone's own speech
-recognition, as described above, not a service of the app's.</p>
+recognition, or in a browser the browser's, and a word heard in a browser is spoken by the
+browser's voice, as described above — none of them a service of the app's.</p>
 
 <h2>Permissions</h2>
 
@@ -357,6 +415,9 @@ changes nothing else in the app.</p>
 platform — a picture is picked through the phone's own picker, which hands over only that one — and
 on Android no camera permission either: the photo is taken by your phone's own camera app.</p>
 
+<p><strong>In a browser</strong>, the browser asks for whatever it needs in its own words, as <em>Using Tarjetas in a
+browser</em> describes.</p>
+
 <h2>Backup, and your account on a new phone</h2>
 
 <p>Tarjetas allows your phone's own backup, which is on by default on both platforms: Android's
@@ -385,6 +446,9 @@ with the arrow coming in). It needs the old phone because there is no password: 
 holds the account is the only thing that can vouch for moving it. It carries everything but your
 words, progress included; exporting and importing your words carries those.</p>
 
+<p>A browser has no such backup: what the app keeps there is in that browser alone, and the move code
+is the only way to carry it to another device — see <em>Using Tarjetas in a browser</em>.</p>
+
 <h2>Where the data is kept</h2>
 
 <p>The server this app is shipped pointing at is a virtual machine in the European Union,
@@ -403,10 +467,10 @@ it, and is deleted by hand rather than on a timetable. Something deleted from th
 therefore still be in a copy made before it was deleted. The copies are used for nothing but
 putting the server back, and nobody else is given them.</p>
 
-<p>The machine also keeps a log of the requests it answers, for finding faults and abuse: when
-each came, what it asked for with every code in it blanked out, and the internet address it
-came from, shortened so that it names a network rather than a device. Each day's log is
-deleted two weeks later.</p>
+<p>The machine also keeps a log of the requests it answers, for finding faults and abuse — requests
+for the browser version's files among them: when each came, what it asked for with every code in
+it blanked out, and the internet address it came from, shortened so that it names a network rather
+than a device. Each day's log is deleted two weeks later.</p>
 
 <h2>Deleting it</h2>
 
@@ -433,7 +497,7 @@ its student list is gone. The code is never given out again, to you or anybody: 
 of students who joined still ask for it now and then, and whoever held it next would have them
 walk straight in. Publish the class again and it gets a new code. Deleting an account is meant
 to stop you being findable, not to take a term of lesson planning with it. Uninstalling the app
-removes those.</p>
+removes those, and in a browser, clearing that site's data does.</p>
 
 <p>What deletion cannot reach is a copy somebody else already has. A friend who has taken the
 dictionary you sent them is holding those words on their own device; a student who has merged
